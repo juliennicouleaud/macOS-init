@@ -28,32 +28,14 @@ brew bundle
 echo "Ouverture de Dropbox pour commencer la synchronisation"
 open -a Dropbox
 
-# installation en spécifique de TigerVPN
-if [ ! -e "/Applications/tigerVPN.app" ]; then
-  echo "Installation de tigerVPN"
-  curl -s -L -o $HOME/Downloads/tigerVPN.dmg "https://apps-tigervpn.netdna-ssl.com/mac/tigerVPN_1_1.dmg"
-  hdiutil attach -quiet $HOME/Downloads/tigerVPN.dmg
-  ditto -rsrc "/Volumes/tigerVPN/tigerVPN.app" /Applications/tigerVPN.app
-  hdiutil detach "/Volumes/tigerVPN"
-  rm -f $HOME/Downloads/tigerVPN.dmg
-fi
-
 echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
 sudo gem update --system --silent
+# Installation de RVM
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Installation de Bundler
 sudo gem install bundler
-
-echo "Installation des outils de développement Node"
-# Installation de composants Node
-npm install -g npm-check-updates
-npm install grunt -g
-npm install grunt-cli -g
-
-echo "Finalisation de l'installation de PHP"
-echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
-brew services start homebrew/php/php71
-brew services start homebrew/apache/httpd24
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
