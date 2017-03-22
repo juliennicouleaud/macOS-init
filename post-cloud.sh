@@ -11,7 +11,7 @@ echo "Restauration des préférences"
 mackup restore -n
 
 # Enregistrement des copies d'écran sur Dropbox
-defaults write com.apple.screencapture location -string “$HOME/Dropbox/Captures/MB12”
+defaults write com.apple.screencapture location -string “$HOME/Dropbox/Screenshots/”
 
 echo "Installation de oh-my-zsh"
 # Installation de oh-my-zsh
