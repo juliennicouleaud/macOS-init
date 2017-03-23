@@ -66,6 +66,7 @@ brew 'docker'
 cask 'osxfuse'
 
 brew 'ansible'
+cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 
@@ -75,8 +76,6 @@ cask 'visual-studio-code'
 cask 'font-fira-code'
 
 cask 'sequel-pro'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 mas 'Xcode', id: 497799835
 
 
