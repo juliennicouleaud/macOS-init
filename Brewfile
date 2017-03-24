@@ -26,6 +26,7 @@ brew 'curl'
 cask 'Cyberduck'
 brew 'stormssh'
 cask 'tunnelblick'
+cask 'postman'
 
 # Outils pour le terminal
 cask 'iterm2'
