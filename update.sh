@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 
+set -x
 # Update brew and upgrade all packages
-(set -x; brew update;)
-(set -x; brew outdated;)
-(set -x; brew upgrade;)
-(set -x; brew cleanup -s;)
-(set -x; brew doctor;)
-(set -x; brew prune;)
+brew update
+brew outdated
+brew upgrade
+brew cleanup
+brew doctor
+brew prune
 
 # Clean Cask cache
-(set -x; brew cask cleanup;)
+brew cask cleanup
+
+set +x
 
 red=`tput setaf 1`
 green=`tput setaf 2`
