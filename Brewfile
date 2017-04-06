@@ -19,6 +19,7 @@ brew 'mas'
 
 # Outils système et réseau
 brew 'openssh'
+brew 'ssh-copy-id'
 brew 'openssl'
 brew 'rsync'
 brew 'wget'
@@ -32,6 +33,7 @@ cask 'postman'
 cask 'iterm2'
 brew 'autojump'
 brew 'thefuck'
+brew 'rmtrash'
 
 # Utilitaires
 cask 'ccleaner'
@@ -61,9 +63,11 @@ brew 'git'
 cask 'java6'
 brew 'pkg-config'
 brew 'ruby'
+brew 'python3'
 
 brew 'docker'
 cask 'osxfuse'
+brew 'unison'
 
 brew 'ansible'
 cask 'vagrant'
@@ -78,6 +82,9 @@ cask 'font-fira-code'
 cask 'sequel-pro'
 mas 'Xcode', id: 497799835
 
+# Static generators
+
+brew 'hugo'
 
 # Traitement d'image
 brew 'graphicsmagick'
@@ -86,6 +93,8 @@ brew 'imagemagick@6'
 mas 'Boxy SVG', id: 611658502
 cask 'gimp'
 cask 'imageoptim'
+brew 'jhead'
+brew 'webp'
 
 # Multimédia
 brew 'ffmpeg'
