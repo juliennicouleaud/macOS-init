@@ -28,6 +28,7 @@ cask 'Cyberduck'
 brew 'stormssh'
 cask 'tunnelblick'
 cask 'postman'
+cask 'ngrok'
 
 # Outils pour le terminal
 cask 'iterm2'
