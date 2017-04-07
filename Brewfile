@@ -8,7 +8,6 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/homebrew-php'
 #? tap 'homebrew/core'
 
 # Définir où placer les applications installées
@@ -53,11 +52,12 @@ cask 'carbon-copy-cloner'
 cask 'dropbox'
 cask 'google-drive'
 
-# Outils Web
+# Navigateurs
 cask 'firefox'
 cask 'google-chrome'
 brew 'lynx'
 cask 'brave'
+cask 'vivaldi'
 
 # Outils de développement
 brew 'git'
