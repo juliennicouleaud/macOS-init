@@ -2,15 +2,15 @@
 
 set -x
 # Update brew and upgrade all packages
-# brew update
-# brew outdated
-# brew upgrade
-# brew cleanup
-# brew doctor
-# brew prune
+brew update
+brew outdated
+brew upgrade
+brew cleanup
+brew doctor
+brew prune
 
 # Clean Cask cache
-# brew cask cleanup
+brew cask cleanup
 
 set +x
 
