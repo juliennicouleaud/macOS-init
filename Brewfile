@@ -110,6 +110,7 @@ cask 'rambox'
 cask 'skype'
 
 # Bureautique
+cask 'libreoffice'
 brew 'pandoc'
 cask 'flux'
 cask 'poedit'
