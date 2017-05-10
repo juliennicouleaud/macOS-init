@@ -48,3 +48,5 @@ do
         (set -x; brew cask install $updateAvailable --force;)
     fi
 done
+
+brew cask cleanup
