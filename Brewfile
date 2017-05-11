@@ -111,6 +111,7 @@ cask 'skype'
 
 # Bureautique
 cask 'libreoffice'
+cask 'adobe-reader'
 brew 'pandoc'
 cask 'flux'
 cask 'poedit'
