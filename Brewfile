@@ -44,6 +44,7 @@ cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 mas 'BetterSnapTool', id: 417375580
+mas 'Silent Start', id: 905747757
 cask 'the-unarchiver'
 
 # Outils de backup et synchro

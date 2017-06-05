@@ -1,12 +1,19 @@
 #!/bin/sh
 
 ## README
-# /!\ Ce script d'installation est conçu pour mon usage. Ne le lancez pas sans vérifier chaque commande ! /!\
+# /!\ Ce script d'installation est conçu pour mon usage. Ne le lancez pas sans vérifier chaque commande ! /!\
 
 # Sources :
 # https://github.com/nicolinuxfr/macOS-post-installation
 # https://www.macg.co/logiciels/2017/02/comment-synchroniser-les-preferences-des-apps-avec-mackup-97442
 # https://github.com/OzzyCzech/dotfiles/blob/master/.osx
+
+# Demande du mot de passe administrateur dès le départ
+sudo -v
+
+# Keep-alive: met à jour le timestamp de `sudo`
+# tant que `post-install.sh` n'est pas terminé
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ## LA BASE : Homebrew et les lignes de commande
 if test ! $(which brew)
@@ -28,6 +35,9 @@ brew bundle
 echo "Ouverture de Dropbox pour commencer la synchronisation"
 open -a Dropbox
 
+# echo "Finalisation de l'installation de The Fuck avec l'alias \"whoops\""
+# echo 'eval "$(thefuck --alias whoops)"' >> ~/.zshrc
+
 echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
 sudo gem update --system --silent
@@ -36,6 +46,17 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Installation de Bundler
 sudo gem install bundler
+
+# echo "Installation des outils de développement Node"
+# Installation de composants Node
+# npm install -g npm-check-updates
+# npm install grunt -g
+# npm install grunt-cli -g
+
+# echo "Finalisation de l'installation de PHP"
+# echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
+# brew services start homebrew/php/php71
+# brew services start homebrew/apache/httpd24
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
@@ -67,6 +88,9 @@ sudo defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Afficher le dossier maison par défaut
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
+
+# Supprimer les doublons dans le menu "ouvrir avec…"
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 
 # Recherche dans le dossier en cours par défaut
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
@@ -183,6 +207,9 @@ defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 ## SONS
+
+# Démarrer en silence
+sudo nvram SystemAudioVolume="%00"
 
 # Alertes sonores quand on modifie le volume
 sudo defaults write com.apple.systemsound com.apple.sound.beep.volume -float 1
