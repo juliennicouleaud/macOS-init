@@ -12,6 +12,9 @@ brew prune
 # Clean Cask cache
 brew cask cleanup
 
+# Update Mac App Store apps
+mas upgrade
+
 set +x
 
 red=`tput setaf 1`
