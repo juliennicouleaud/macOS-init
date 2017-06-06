@@ -53,10 +53,10 @@ sudo gem install bundler
 # npm install grunt -g
 # npm install grunt-cli -g
 
-# echo "Finalisation de l'installation de PHP"
-# echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
-# brew services start homebrew/php/php71
-# brew services start homebrew/apache/httpd24
+echo "Finalisation de l'installation de PHP"
+echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
+brew services start homebrew/php/php71
+brew services start homebrew/apache/httpd24
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"

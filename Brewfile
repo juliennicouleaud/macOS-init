@@ -8,7 +8,8 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-#? tap 'homebrew/core'
+tap 'homebrew/homebrew-php'
+tap 'caskroom/drivers'
 
 # Définir où placer les applications installées
 cask_args appdir: '/Applications'
@@ -66,6 +67,7 @@ cask 'java6'
 brew 'pkg-config'
 brew 'ruby'
 brew 'python3'
+brew 'php71', args: ['with-httpd24']
 
 brew 'docker'
 cask 'osxfuse'
