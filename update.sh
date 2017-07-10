@@ -23,22 +23,9 @@ reset=`tput sgr0`
 
 # List all casks and for each of them,
 # test if a newer version is available.
-indexUpdateAvailable=0
-declare -a updateAvailable=()
-casks=( $(brew cask list) )
+updateAvailable=( $(brew cask outdated --greedy --verbose | grep -v '(latest)' | cut -f1 -d" ") )
 
 echo "Scanning the casks…"
-for cask in ${casks[@]}
-do
-    version=$(brew cask info $cask | sed -n "s/$cask:\ \(.*\)/\1/p")
-    installed=$(find "/usr/local/Caskroom/$cask" -type d -maxdepth 1 -maxdepth 1 -name "$version")
-    if [[ -z $installed ]]; then
-        updateAvailable[$indexUpdateAvailable]="${cask}"
-        indexUpdateAvailable=$((indexUpdateAvailable+1))
-    else
-        echo "${red}${cask}${reset} is ${green}up-to-date${reset}."
-    fi
-done
 for updateAvailable in ${updateAvailable[@]}
 do
     read -p "${red}${updateAvailable}${reset} requires ${red}update${reset}. Do youn want to update? (${green}y${reset}/${red}n${reset}) Default: ${red}no${reset} " -n 1 -r
