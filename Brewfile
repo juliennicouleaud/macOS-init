@@ -47,7 +47,6 @@ cask 'quicklook-json'
 mas 'BetterSnapTool', id: 417375580
 mas 'Silent Start', id: 905747757
 cask 'the-unarchiver'
-cask 'thunderbird'
 
 # Outils de backup et synchro
 brew 'mackup'
