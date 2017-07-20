@@ -83,7 +83,7 @@ cask 'visual-studio-code'
 cask 'font-fira-code'
 
 cask 'sequel-pro'
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 
 # Static generators
 
