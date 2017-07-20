@@ -70,8 +70,7 @@ brew 'python3'
 brew 'php71', args: ['with-httpd24']
 
 brew 'docker'
-cask 'osxfuse'
-brew 'unison'
+brew 'docker-clean'
 
 brew 'ansible'
 cask 'vagrant'
