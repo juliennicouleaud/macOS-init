@@ -51,7 +51,6 @@ cask 'the-unarchiver'
 # Outils de backup et synchro
 brew 'mackup'
 cask 'carbon-copy-cloner'
-cask 'dropbox'
 cask 'google-drive'
 
 # Navigateurs
