@@ -37,9 +37,6 @@ open -a Dropbox
 # et mettre à jour celles déjà présentes
 brew bundle
 
-echo "Ouverture de Dropbox pour commencer la synchronisation"
-open -a Dropbox
-
 # echo "Finalisation de l'installation de The Fuck avec l'alias \"whoops\""
 # echo 'eval "$(thefuck --alias whoops)"' >> ~/.zshrc
 
