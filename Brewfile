@@ -70,7 +70,8 @@ brew 'python3'
 brew 'composer'
 brew 'php71', args: ['with-httpd24']
 
-brew 'docker'
+cask 'docker'
+cask 'kitematic'
 brew 'docker-clean'
 
 brew 'ansible'
@@ -107,6 +108,7 @@ cask 'spotify'
 cask 'vlc'
 cask 'filebot'
 cask 'calibre'
+cask 'kindle'
 
 # Communication
 cask 'rambox'
