@@ -44,9 +44,10 @@ cask 'disk-inventory-x'
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-mas 'BetterSnapTool', id: 417375580
-mas 'Silent Start', id: 905747757
+mas 'BetterSnapTool', id: 417_375_580
+mas 'Silent Start', id: 905_747_757
 cask 'the-unarchiver'
+cask 'android-file-transfer'
 
 # Outils de backup et synchro
 brew 'mackup'
@@ -66,6 +67,7 @@ cask 'java6'
 brew 'pkg-config'
 brew 'ruby'
 brew 'python3'
+brew 'composer'
 brew 'php71', args: ['with-httpd24']
 
 brew 'docker'
@@ -92,7 +94,7 @@ brew 'hugo'
 brew 'graphicsmagick'
 brew 'gsl'
 brew 'imagemagick@6'
-mas 'Boxy SVG', id: 611658502
+mas 'Boxy SVG', id: 611_658_502
 cask 'gimp'
 cask 'imageoptim'
 brew 'jhead'
