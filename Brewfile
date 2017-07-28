@@ -48,6 +48,7 @@ mas 'BetterSnapTool', id: 417_375_580
 mas 'Silent Start', id: 905_747_757
 cask 'the-unarchiver'
 cask 'android-file-transfer'
+cask 'rocket'
 
 # Outils de backup et synchro
 brew 'mackup'
