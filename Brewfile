@@ -64,7 +64,7 @@ cask 'vivaldi'
 
 # Outils de développement
 brew 'git'
-cask 'java6'
+cask 'java'
 brew 'pkg-config'
 brew 'ruby'
 brew 'python3'
