@@ -114,6 +114,7 @@ cask 'kindle'
 # Communication
 cask 'rambox'
 cask 'skype'
+cask 'skype-for-business'
 
 # Bureautique
 cask 'libreoffice'
