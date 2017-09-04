@@ -95,6 +95,7 @@ brew 'hugo'
 # Traitement d'image
 brew 'graphicsmagick'
 brew 'gsl'
+brew 'exiftool'
 brew 'imagemagick@6'
 mas 'Boxy SVG', id: 611_658_502
 cask 'gimp'
