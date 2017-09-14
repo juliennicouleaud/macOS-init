@@ -113,9 +113,10 @@ cask 'calibre'
 cask 'kindle'
 
 # Communication
-cask 'rambox'
+# cask 'rambox'
+cask 'slack'
+cask 'hipchat'
 cask 'skype'
-cask 'skype-for-business'
 
 # Bureautique
 cask 'libreoffice'
