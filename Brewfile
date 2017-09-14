@@ -97,7 +97,7 @@ brew 'graphicsmagick'
 brew 'gsl'
 brew 'exiftool'
 brew 'imagemagick@6'
-mas 'Boxy SVG', id: 611_658_502
+mas 'Boxy SVG', id: 611658502
 cask 'gimp'
 cask 'imageoptim'
 brew 'jhead'
@@ -105,25 +105,24 @@ brew 'webp'
 
 # Multimédia
 brew 'ffmpeg'
-cask 'handbrake'
+# cask 'handbrake'
 cask 'spotify'
 cask 'vlc'
 cask 'filebot'
 cask 'calibre'
-cask 'kindle'
 
 # Communication
 # cask 'rambox'
 cask 'slack'
 cask 'hipchat'
 cask 'skype'
+mas 'trello', id: 1278508951
 
 # Bureautique
 cask 'libreoffice'
 brew 'pandoc'
 cask 'flux'
 cask 'poedit'
-cask 'transmission'
 
 # Divertissement
 
