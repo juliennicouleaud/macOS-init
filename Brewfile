@@ -49,6 +49,7 @@ mas 'Silent Start', id: 905_747_757
 cask 'the-unarchiver'
 cask 'android-file-transfer'
 cask 'rocket'
+cask 'github-desktop'
 
 # Outils de backup et synchro
 brew 'mackup'
