@@ -19,6 +19,7 @@ brew 'mas'
 
 # Outils système et réseau
 brew 'openssh'
+brew 'gcc'
 brew 'ssh-copy-id'
 brew 'openssl'
 brew 'rsync'
@@ -26,7 +27,7 @@ brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
 brew 'stormssh'
-cask 'tunnelblick'
+# cask 'tunnelblick'
 cask 'postman'
 cask 'ngrok'
 
@@ -53,15 +54,15 @@ cask 'github-desktop'
 
 # Outils de backup et synchro
 brew 'mackup'
-cask 'carbon-copy-cloner'
+# cask 'carbon-copy-cloner'
 cask 'google-backup-and-sync'
 
 # Navigateurs
 cask 'firefox'
 cask 'google-chrome'
-brew 'lynx'
+# brew 'lynx'
 cask 'brave'
-cask 'vivaldi'
+# cask 'vivaldi'
 
 # Outils de développement
 brew 'git'
@@ -72,9 +73,9 @@ brew 'python3'
 brew 'composer'
 brew 'php71', args: ['with-httpd24']
 
-cask 'docker'
-cask 'kitematic'
-brew 'docker-clean'
+# cask 'docker'
+# cask 'kitematic'
+# brew 'docker-clean'
 
 brew 'ansible'
 cask 'vagrant'
@@ -105,12 +106,12 @@ brew 'jhead'
 brew 'webp'
 
 # Multimédia
-brew 'ffmpeg'
+brew 'ffmpeg', args: ['with-libvorbis', '--with-libvpx', '--with-openh264', '--with-theora']
 # cask 'handbrake'
 cask 'spotify'
 cask 'vlc'
 cask 'filebot'
-cask 'calibre'
+# cask 'calibre'
 
 # Communication
 # cask 'rambox'
