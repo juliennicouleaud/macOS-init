@@ -59,6 +59,7 @@ cask 'google-backup-and-sync'
 
 # Navigateurs
 cask 'firefox'
+cask 'FirefoxDeveloperEdition'
 cask 'google-chrome'
 # brew 'lynx'
 cask 'brave'
