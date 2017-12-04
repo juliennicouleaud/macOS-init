@@ -46,7 +46,6 @@ cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 mas 'BetterSnapTool', id: 417_375_580
-mas 'Silent Start', id: 905_747_757
 cask 'the-unarchiver'
 cask 'android-file-transfer'
 cask 'rocket'
@@ -101,13 +100,12 @@ brew 'gsl'
 brew 'exiftool'
 brew 'imagemagick@6'
 mas 'Boxy SVG', id: 611658502
-cask 'gimp'
 cask 'imageoptim'
 brew 'jhead'
 brew 'webp'
 
 # Multimédia
-brew 'ffmpeg', args: ['with-libvorbis', '--with-libvpx', '--with-openh264', '--with-theora']
+brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus']
 # cask 'handbrake'
 cask 'spotify'
 cask 'vlc'
