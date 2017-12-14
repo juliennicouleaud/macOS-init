@@ -49,11 +49,14 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Installation de Bundler
 sudo gem install bundler
 
-# echo "Installation des outils de développement Node"
+echo "Installation des outils de développement Node"
 # Installation de composants Node
-# npm install -g npm-check-updates
-# npm install grunt -g
-# npm install grunt-cli -g
+npm install -g npm
+
+echo "Installation d'applications en Node"
+# De meilleures aides en ligne : http://tldr.sh/
+npm install -g tldr
+npm install -g http-serve
 
 echo "Finalisation de l'installation de PHP"
 echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
@@ -76,7 +79,7 @@ defaults write com.apple.finder ShowStatusBar -bool true
 # Nlsv ▸ List View
 # clmv ▸ Column View
 # icnv ▸ Icon View
-defaults write com.apple.finder FXPreferredViewStyle -string “clmv”
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Boite de dialogue lors de la mise en veille en appuyant sur le bouton
 defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
