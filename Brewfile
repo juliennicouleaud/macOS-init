@@ -42,14 +42,21 @@ cask 'ccleaner'
 cask 'imageoptim'
 cask 'coconutbattery'
 cask 'disk-inventory-x'
+
+# Quicklook For README, INSTALL, Rakefile, Makefile…
+cask 'qlstephen'
+# Quicklook for webp
+cask 'webpquicklook'
+# Quicklook for other formats
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
+
 mas 'BetterSnapTool', id: 417_375_580
 cask 'the-unarchiver'
 cask 'android-file-transfer'
 cask 'rocket'
-cask 'github-desktop'
+# cask 'github-desktop'
 
 # Outils de backup et synchro
 brew 'mackup'
@@ -60,8 +67,9 @@ cask 'google-backup-and-sync'
 cask 'firefox'
 cask 'FirefoxDeveloperEdition'
 cask 'google-chrome'
+cask 'google-chrome-canary'
 # brew 'lynx'
-cask 'brave'
+# cask 'brave'
 # cask 'vivaldi'
 
 # Outils de développement

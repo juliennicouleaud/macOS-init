@@ -3,7 +3,7 @@
 ## README
 # /!\ Ce script d'installation est conçu pour mon usage. Ne le lancez pas sans vérifier chaque commande ! /!\
 
-# Sources :
+# Sources :
 # https://github.com/nicolinuxfr/macOS-post-installation
 # https://www.macg.co/logiciels/2017/02/comment-synchroniser-les-preferences-des-apps-avec-mackup-97442
 # https://github.com/OzzyCzech/dotfiles/blob/master/.osx
@@ -15,7 +15,7 @@ sudo -v
 # tant que `post-install.sh` n'est pas terminé
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-## LA BASE : Homebrew et les lignes de commande
+## LA BASE : Homebrew et les lignes de commande
 if test ! $(which brew)
 then
   echo "Installation de Homebrew"
@@ -54,7 +54,7 @@ echo "Installation des outils de développement Node"
 npm install -g npm
 
 echo "Installation d'applications en Node"
-# De meilleures aides en ligne : http://tldr.sh/
+# De meilleures aides en ligne : http://tldr.sh/
 npm install -g tldr
 npm install -g http-serve
 
@@ -153,19 +153,19 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # 11: Launchpad
 # 12: Notification Center
 
-# En haut à gauche : bureau
+# En haut à gauche : bureau
 # defaults write com.apple.dock wvous-tl-corner -int 4
 # defaults write com.apple.dock wvous-tl-modifier -int 0
 
-# En haut à droite : screensaver
+# En haut à droite : screensaver
 defaults write com.apple.dock wvous-tr-corner -int 5
 defaults write com.apple.dock wvous-tr-modifier -int 0
 
-# En bas à gauche : fenêtres de l'application
+# En bas à gauche : fenêtres de l'application
 # defaults write com.apple.dock wvous-bl-corner -int 3
 # defaults write com.apple.dock wvous-bl-modifier -int 0
 
-# En bas à droite : Mission Control
+# En bas à droite : Mission Control
 # defaults write com.apple.dock wvous-br-corner -int 2
 # defaults write com.apple.dock wvous-br-modifier -int 0
 
@@ -191,23 +191,23 @@ sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # Vérifier la disponibilité de mise à jour quotidiennement
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
-# Safari : menu développeur / URL en bas à gauche / URL complète en haut / Do Not Track / affichage barre favoris
+# Safari : menu développeur / URL en bas à gauche / URL complète en haut / Do Not Track / affichage barre favoris
 defaults write com.apple.safari IncludeDevelopMenu -int 1
 defaults write com.apple.safari ShowOverlayStatusBar -int 1
 defaults write com.apple.safari ShowFullURLInSmartSearchField -int 1
 defaults write com.apple.safari SendDoNotTrackHTTPHeader -int 1
 defaults write com.apple.Safari ShowFavoritesBar -bool true
 
-# Chrome : désactiver la navigation dans l'historique au swipe
+# Chrome : désactiver la navigation dans l'historique au swipe
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
 
-# Photos : pas d'affichage pour les iPhone
+# Photos : pas d'affichage pour les iPhone
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool YES
 
-# TextEdit : .txt par défaut
+# TextEdit : .txt par défaut
 defaults write com.apple.TextEdit RichText -int 0
 
-# TextEdit : ouvre et enregistre les fichiers en UTF-8
+# TextEdit : ouvre et enregistre les fichiers en UTF-8
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
@@ -238,5 +238,5 @@ brew cleanup
 rm -f -r /Library/Caches/Homebrew/*
 
 echo ""
-echo "ET VOILÀ !"
-echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
+echo "ET VOILÀ !"
+echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
