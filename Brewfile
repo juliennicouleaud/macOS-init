@@ -10,6 +10,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/homebrew-php'
 tap 'caskroom/drivers'
+tap 'colindean/fonts-nonfree'
 
 # Définir où placer les applications installées
 cask_args appdir: '/Applications'
@@ -132,6 +133,7 @@ cask 'libreoffice'
 brew 'pandoc'
 cask 'flux'
 cask 'poedit'
+cask 'font-microsoft-office'
 
 # Divertissement
 
