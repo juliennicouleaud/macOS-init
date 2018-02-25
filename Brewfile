@@ -118,7 +118,7 @@ brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-th
 # cask 'handbrake'
 cask 'spotify'
 cask 'vlc'
-cask 'filebot'
+mas 'filebot', id: 905384638
 # cask 'calibre'
 
 # Communication
