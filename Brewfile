@@ -79,17 +79,17 @@ cask 'java'
 brew 'pkg-config'
 brew 'ruby'
 brew 'python3'
-brew 'composer'
-brew 'php71', args: ['with-httpd24']
+# brew 'composer'
+# brew 'php71', args: ['with-httpd24']
 
 # cask 'docker'
 # cask 'kitematic'
 # brew 'docker-clean'
 
-brew 'ansible'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+# brew 'ansible'
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
 
 brew 'nvm'
 
@@ -100,7 +100,6 @@ cask 'sequel-pro'
 # mas 'Xcode', id: 497799835
 
 # Static generators
-
 brew 'hugo'
 
 # Traitement d'image
