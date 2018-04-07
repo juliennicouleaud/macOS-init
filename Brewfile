@@ -193,7 +193,6 @@ cask 'jubler'
 # cask 'slack'
 # cask 'hipchat'
 cask 'skype'
-mas 'trello', id: 1278508951
 cask 'limechat'
 cask 'whatsapp'
 
