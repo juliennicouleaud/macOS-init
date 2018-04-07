@@ -46,7 +46,7 @@ brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
 brew 'stormssh'
-# cask 'tunnelblick'
+cask 'tunnelblick'
 cask 'ngrok'
 
 
@@ -81,6 +81,19 @@ cask 'the-unarchiver'
 cask 'android-file-transfer'
 cask 'github-desktop'
 
+cask 'adobe-acrobat-reader'
+cask 'alfred'
+cask 'appcleaner'
+mas 'Bear', id: 1091189122
+cask 'caffeine'
+cask 'dropbox'
+cask 'itsycal'
+cask 'macdown'
+cask 'numi'
+mas 'Send Anywhere - File Transfer', id: 1016349934
+cask 'spectacle'
+mas 'Pocket', id: 568494494
+
 
 
 # ###################################################################################################################################################
@@ -112,6 +125,7 @@ brew 'lynx'
 # ###################################################################################################################################################
 
 brew 'git'
+cask 'sourcetree'
 brew 'python3'
 brew 'composer'
 
@@ -119,7 +133,10 @@ brew 'ansible'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
+cask 'gas-mask'
 
+cask 'atom'
+cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'font-fira-code'
 
@@ -158,7 +175,13 @@ brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-th
 cask 'handbrake'
 cask 'spotify'
 cask 'vlc'
+cask 'mplayerx'
+cask 'vox'
+
 # cask 'calibre'
+
+cask 'java'
+cask 'jubler'
 
 
 
@@ -171,6 +194,8 @@ cask 'vlc'
 # cask 'hipchat'
 cask 'skype'
 mas 'trello', id: 1278508951
+cask 'limechat'
+cask 'whatsapp'
 
 
 
@@ -182,14 +207,16 @@ mas 'trello', id: 1278508951
 brew 'pandoc'
 cask 'poedit'
 cask 'font-microsoft-office'
+mas 'Keynote', id: 409183694
 
 
 
 # ###################################################################################################################################################
-# Divertissement
+# Accessibility
 # ###################################################################################################################################################
 
-
+cask 'colour-contrast-analyser'
+cask 'sim-daltonism'
 
 
 # ###################################################################################################################################################
@@ -197,3 +224,39 @@ cask 'font-microsoft-office'
 # ###################################################################################################################################################
 
 # brew 'gpg2'
+cask 'macpass'
+cask 'private-internet-access'
+
+
+
+# ###################################################################################################################################################
+# Design
+# ###################################################################################################################################################
+
+cask 'craftmanager'
+mas 'Gravit Designer', id: 1207744923
+cask 'invisionsync'
+mas 'Pixelmator', id: 407963104
+cask 'sip'
+cask 'skala-preview'
+cask 'sketch'
+cask 'xmind'
+cask 'nudgit'
+
+
+
+# ###################################################################################################################################################
+# SEO
+# ###################################################################################################################################################
+
+cask 'screaming-frog-seo-spider'
+
+
+
+# ###################################################################################################################################################
+# MISSING - TO INSTALL MANUALLY
+# ###################################################################################################################################################
+
+# Axure - https://www.axure.com/
+# LittleIpsum - http://macappstore.org/littleipsum/
+# Microsoft Office
