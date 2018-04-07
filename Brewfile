@@ -79,7 +79,7 @@ cask 'quicklook-json'
 
 cask 'the-unarchiver'
 cask 'android-file-transfer'
-cask 'github-desktop'
+cask 'github'
 
 cask 'adobe-acrobat-reader'
 cask 'alfred'
