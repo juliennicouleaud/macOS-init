@@ -9,7 +9,7 @@ Ce script est adapté et emprunté à [Nicolas Hoizey](https://github.com/nhoize
 Ce script exploite exclusivement des lignes de commande Shell et il n'a ainsi aucune dépendance. Quelques pré-requis toutefois :
 
 - Il faut être administrateur du Mac pour l'utiliser ;
-- Il faut s'être connecté au préalable dans le Mac App Store ;
+- il faut s'être connecté au préalable dans le Mac App Store ;
 - les apps à installer depuis la boutique d'Apple doivent déjà être associées à votre compte iTunes Store.
 
 Le script exploite [Homebrew](http://brew.sh "Homebrew — The missing package manager for macOS"), [Cask](https://caskroom.github.io) et [mas](https://github.com/mas-cli/mas) pour installer les apps, [mackup](https://github.com/lra/mackup) pour restaurer des préférences depuis un autre Mac. Plus de nombreuses idées piochées [à droite et à gauche](https://github.com/nicolinuxfr/macOS-post-installation#inspirations).
@@ -22,7 +22,7 @@ Voici comment utiliser les deux scripts :
 
 - Téléchargez la dernière version du projet ([lien direct](https://github.com/juliennicouleaud/macOS-init/archive/master.zip)) ;
 - ouvrez les fichiers `post-install.sh` et `Brewfile`, et modifiez ce qui est installé par défaut ;
-- pensez à changer la ligne `open -a Dropbox` de [`post-install.sh`](https://github.com/juliennicouleaud/macOS-init/blob/master/post-install.sh) en fonction du service de Cloud utilisé, ou alors à la supprimer si vous ne voulez pas en utilisez un ;
+- pensez à changer la ligne `open -a Backup\ and\ Sync` de [`post-install.sh`](https://github.com/juliennicouleaud/macOS-init/blob/master/post-install.sh) en fonction du service de Cloud utilisé, ou alors à la supprimer si vous ne voulez pas en utilisez un ;
 - à partir de la ligne `## *************** CONFIGURATION ***************`, le script configure quelques réglages par défaut, à modifier selon vos besoins ;
 - ouvrez ensuite le Terminal de macOS, glissez le fichier `post-install.sh` appuyez sur la touche entrée et accrochez votre ceinture ;
 - le script fonctionnera largement sans votre intervention, sauf :
