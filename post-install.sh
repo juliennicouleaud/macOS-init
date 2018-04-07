@@ -53,9 +53,9 @@ brew bundle
 # Installation de composants Node
 # npm install -g npm
 
-# echo "Installation d'applications en Node"
+echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
-# npm install -g tldr
+npm install -g tldr
 # npm install -g http-serve
 
 # echo "Finalisation de l'installation de PHP"
