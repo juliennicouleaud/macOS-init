@@ -41,7 +41,7 @@ brew 'mas'
 brew 'openssh'
 brew 'ssh-copy-id'
 brew 'openssl'
-brew 'rsync'
+# brew 'rsync'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
@@ -59,14 +59,14 @@ cask 'iterm2'
 brew 'autojump'
 brew 'thefuck'
 brew 'rmtrash'
+brew 'zsh'
+brew 'zsh-completions'
 
 
 
 # ###################################################################################################################################################
 # Utilitaires
 # ###################################################################################################################################################
-
-cask 'imageoptim'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
 cask 'qlstephen'
@@ -98,9 +98,9 @@ cask 'borgbackup'
 # ###################################################################################################################################################
 
 cask 'firefox'
-cask 'FirefoxDeveloperEdition'
+# cask 'FirefoxDeveloperEdition'
 cask 'google-chrome'
-cask 'google-chrome-canary'
+# cask 'google-chrome-canary'
 brew 'lynx'
 # cask 'brave'
 # cask 'vivaldi'
@@ -123,7 +123,7 @@ cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'font-fira-code'
 
-cask 'sequel-pro'
+# cask 'sequel-pro'
 
 
 
