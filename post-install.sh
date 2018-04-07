@@ -29,9 +29,9 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 brew update
 
 # Installer Dropbox au plus tôt pour lancer la synchro des settings
-brew cask install dropbox
-echo "Ouverture de Dropbox pour commencer la synchronisation"
-open -a Dropbox
+brew cask install google-backup-and-sync
+echo "Ouverture de Google Backup and Sync pour commencer la synchronisation"
+open -a Backup\ and\ Sync
 
 # Installer les nouvelles applications du bundle Brewfile
 # et mettre à jour celles déjà présentes
@@ -40,28 +40,28 @@ brew bundle
 # echo "Finalisation de l'installation de The Fuck avec l'alias \"whoops\""
 # echo 'eval "$(thefuck --alias whoops)"' >> ~/.zshrc
 
-echo "Installation des outils de développement Ruby"
+# echo "Installation des outils de développement Ruby"
 # Mise à jour de RubyGems
-sudo gem update --system --silent
+# sudo gem update --system --silent
 # Installation de RVM
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash -s stable --ruby
+# gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+# curl -sSL https://get.rvm.io | bash -s stable --ruby
 # Installation de Bundler
-sudo gem install bundler
+# sudo gem install bundler
 
-echo "Installation des outils de développement Node"
+# echo "Installation des outils de développement Node"
 # Installation de composants Node
-npm install -g npm
+# npm install -g npm
 
-echo "Installation d'applications en Node"
+# echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
-npm install -g tldr
-npm install -g http-serve
+# npm install -g tldr
+# npm install -g http-serve
 
-echo "Finalisation de l'installation de PHP"
-echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
-brew services start homebrew/php/php71
-brew services start homebrew/apache/httpd24
+# echo "Finalisation de l'installation de PHP"
+# echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
+# brew services start homebrew/php/php71
+# brew services start homebrew/apache/httpd24
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
@@ -69,7 +69,7 @@ echo "Configuration de quelques paramètres par défaut"
 ## FINDER
 
 # Affichage de la bibliothèque
-# chflags nohidden ~/Library
+chflags nohidden ~/Library
 
 # Affichage de la barre latérale
 defaults write com.apple.finder ShowStatusBar -bool true
@@ -88,7 +88,7 @@ defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
 defaults write com.apple.finder ShowPathbar -bool false
 
 # Affichage de toutes les extensions
-sudo defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+sudo defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Afficher le dossier maison par défaut
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
@@ -107,7 +107,7 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 
 # Sauvegarde sur disque (et non sur iCloud) par défaut
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool true
 
 # Coup d'œil : sélection de texte
 defaults write com.apple.finder QLEnableTextSelection -bool true
@@ -125,9 +125,9 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 ## DOCK
 
 # Taille minimum
-defaults write com.apple.dock tilesize -int 32
+defaults write com.apple.dock tilesize -int 48
 # Agrandissement actif
-defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock magnification -bool false
 # Taille maximale pour l'agrandissement
 defaults write com.apple.dock largesize -float 128
 
@@ -153,13 +153,13 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # 11: Launchpad
 # 12: Notification Center
 
-# En haut à gauche : bureau
-# defaults write com.apple.dock wvous-tl-corner -int 4
-# defaults write com.apple.dock wvous-tl-modifier -int 0
+# En bas à droite : bureau
+defaults write com.apple.dock wvous-br-corner -int 4
+defaults write com.apple.dock wvous-br-modifier -int 0
 
-# En haut à droite : screensaver
-defaults write com.apple.dock wvous-tr-corner -int 5
-defaults write com.apple.dock wvous-tr-modifier -int 0
+# En bas à gauche : screensaver
+defaults write com.apple.dock wvous-bl-corner -int 5
+defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # En bas à gauche : fenêtres de l'application
 # defaults write com.apple.dock wvous-bl-corner -int 3
@@ -239,4 +239,4 @@ rm -f -r /Library/Caches/Homebrew/*
 
 echo ""
 echo "ET VOILÀ !"
-echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
+echo "Après synchronisation des données Google Drive (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
