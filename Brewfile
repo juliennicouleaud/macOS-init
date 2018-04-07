@@ -177,6 +177,7 @@ cask 'spotify'
 cask 'vlc'
 cask 'mplayerx'
 cask 'vox'
+cask 'phocus'
 
 # cask 'calibre'
 
@@ -259,4 +260,5 @@ cask 'screaming-frog-seo-spider'
 
 # Axure - https://www.axure.com/
 # LittleIpsum - http://macappstore.org/littleipsum/
+# LightZone - http://lightzoneproject.org/
 # Microsoft Office
