@@ -1,8 +1,10 @@
-**⚠️ Ce script a été conçu pour mes besoins. Avant de l'utiliser pensez bien [à le modifier](https://github.com/juliennicouleaud/macOS-init#comment-lutiliser) en fonction de vos besoins ! ⚠️**
+**⚠️ Ce script a été conçu pour mes besoins.⚠️**
+
+**⚠️Avant de l'utiliser pensez bien [à le modifier](https://github.com/juliennicouleaud/macOS-init#comment-lutiliser) en fonction de vos besoins ! ⚠️**
 
 ## Présentation
 
-Ce script est adapté et emprunté à [Nicolas Hoizey](https://github.com/nhoizey/macOS-init). Il est très largement inspiré de [celui de Nicolas Furno](https://github.com/nicolinuxfr/macOS-post-installation), qu'il a [décrit dans un article MacGénération](https://www.macg.co/logiciels/2017/01/un-script-pour-configurer-automatiquement-un-nouveau-mac-96652). Il permet d'installer des logiciels et de configurer quelques paramètres automatiquement après l'installation de macOS.
+Ce script est adapté et emprunté à [Nicolas Hoizey](https://github.com/nhoizey/macOS-init) et [Boris Schapira](https://github.com/borisschapira/macOS-init). Il est très largement inspiré de [celui de Nicolas Furno](https://github.com/nicolinuxfr/macOS-post-installation), qu'il a [décrit dans un article MacGénération](https://www.macg.co/logiciels/2017/01/un-script-pour-configurer-automatiquement-un-nouveau-mac-96652). Il permet d'installer des logiciels et de configurer quelques paramètres automatiquement après l'installation de macOS.
 
 Ce script exploite exclusivement des lignes de commande Shell et il n'a ainsi aucune dépendance. Quelques pré-requis toutefois :
 
