@@ -241,6 +241,7 @@ cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
 cask 'nudgit'
+cask 'anyipsum'
 
 
 
@@ -257,6 +258,9 @@ cask 'screaming-frog-seo-spider'
 # ###################################################################################################################################################
 
 # Axure - https://www.axure.com/
-# LittleIpsum - http://macappstore.org/littleipsum/
 # LightZone - http://lightzoneproject.org/
-# Microsoft Office
+# Microsoft Office 2016
+# Printer Canon Pixma MP495 (scan & print)
+# Printer Canon IJ Scan Utility
+# Printer Canon iR-ADV C2020L/2030L
+# Printer Brother MFC-9465CDN
