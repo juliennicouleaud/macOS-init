@@ -202,7 +202,7 @@ cask 'whatsapp'
 # Bureautique
 # ###################################################################################################################################################
 
-# cask 'openoffice'
+cask 'openoffice'
 brew 'pandoc'
 cask 'poedit'
 cask 'font-microsoft-office'
