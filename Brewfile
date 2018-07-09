@@ -110,7 +110,7 @@ cask 'borgbackup'
 # ###################################################################################################################################################
 
 cask 'firefox'
-# cask 'FirefoxDeveloperEdition'
+cask 'firefox-developer-edition'
 cask 'google-chrome'
 # cask 'google-chrome-canary'
 brew 'lynx'
@@ -127,6 +127,7 @@ brew 'git'
 cask 'sourcetree'
 brew 'python3'
 brew 'composer'
+brew 'gandi.cli'
 
 brew 'ansible'
 cask 'vagrant'
@@ -207,6 +208,7 @@ brew 'pandoc'
 cask 'poedit'
 cask 'font-microsoft-office'
 mas 'Keynote', id: 409183694
+mas 'Pages', id: 409201541
 
 
 
@@ -241,7 +243,8 @@ cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
 cask 'nudgit'
-cask 'anyipsum'
+# cask 'anyipsum'
+mas 'LittleIpsum', id: 405772121
 
 
 
@@ -250,6 +253,15 @@ cask 'anyipsum'
 # ###################################################################################################################################################
 
 cask 'screaming-frog-seo-spider'
+
+
+
+# ###################################################################################################################################################
+# MISC
+# ###################################################################################################################################################
+
+# ## Removing for now as buggy ##
+# cask 'aerial'
 
 
 
