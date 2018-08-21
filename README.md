@@ -1,6 +1,4 @@
-**⚠️ Ce script a été conçu pour mes besoins.⚠️**
-
-**⚠️ Avant de l'utiliser pensez bien [à le modifier](https://github.com/juliennicouleaud/macOS-init#comment-lutiliser) en fonction de vos besoins ! ⚠️**
+**⚠️ Avant d'utiliser ce script [modifiez le](https://github.com/juliennicouleaud/macOS-init#comment-lutiliser) en fonction de vos besoins ⚠️**
 
 **❌💀 Attention : Mackup déplace les fichiers de configuration et crée des liens symboliques vers ces derniers, il ne fait par de copie des fichiers. 💀❌**
 
