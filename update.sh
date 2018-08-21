@@ -10,7 +10,7 @@ brew doctor
 brew prune
 
 # Clean Cask cache
-brew cask cleanup
+brew cleanup
 
 # Update Mac App Store apps
 mas upgrade
@@ -39,4 +39,4 @@ do
     fi
 done
 
-brew cask cleanup
+brew cleanup
