@@ -25,7 +25,7 @@ Voici comment utiliser les deux scripts :
 - ouvrez les fichiers `post-install.sh` et `Brewfile`, et modifiez ce qui est installé par défaut ;
 - pensez à changer la ligne `open -a Backup\ and\ Sync` de [`post-install.sh`](https://github.com/juliennicouleaud/macOS-init/blob/master/post-install.sh) en fonction du service de Cloud utilisé, ou alors à la supprimer si vous ne voulez pas en utilisez un ;
 - à partir de la ligne `## *************** CONFIGURATION ***************`, le script configure quelques réglages par défaut, à modifier selon vos besoins ;
-- ouvrez ensuite le Terminal de macOS, glissez le fichier `post-install.sh` appuyez sur la touche entrée et accrochez votre ceinture ;
+- ouvrez ensuite le Terminal de macOS, glissez le fichier `post-install.sh` appuyez sur la touche <kbd>entrée</kbd> et accrochez votre ceinture ;
 - le script fonctionnera largement sans votre intervention, sauf :
   - pour valider l'installation de Homebrew ;
   - pour saisir le mot de passe administrateur pour Homebrew ;
@@ -34,7 +34,7 @@ Voici comment utiliser les deux scripts :
 - si tout va bien, il se terminera normalement sans erreur, mais en cas d'erreur, vous pourrez relancer le script et seul ce qui n'a pas déjà été installé, sera installé ;
 - quand le premier script est terminé, et quand vos données sont synchronisées depuis le cloud, ouvrez le fichier `post-cloud.sh` :
   - [ligne 8](https://github.com/juliennicouleaud/macOS-init/blob/master/post-cloud.sh#L8), modifiez cette ligne en fonction du service de Cloud choisi, ou laissez-la en commentaire si vous utilisez Dropbox (choix par défaut) ;
-- toujours dans le Terminal, glissez le fichier `post-cloud.sh` avant de valider avec la touche entrée pour finir l'installation.
+- toujours dans le Terminal, glissez le fichier `post-cloud.sh` avant de valider avec la touche <kbd>entrée</kbd> pour finir l'installation.
 
 
 ## Réservé à moi-même
