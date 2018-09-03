@@ -50,6 +50,7 @@ cask 'ngrok'
 
 
 
+
 # ###################################################################################################################################################
 # Outils pour le terminal
 # ###################################################################################################################################################
@@ -92,6 +93,8 @@ cask 'numi'
 mas 'Send Anywhere - File Transfer', id: 1016349934
 cask 'spectacle'
 mas 'Pocket', id: 568494494
+mas 'Trello', id: 1278508951
+cask 'bitwarden'
 
 
 
@@ -161,7 +164,7 @@ brew 'hugo'
 # brew 'exiftool'
 # brew 'imagemagick@6'
 # mas 'Boxy SVG', id: 611658502
-cask 'imageoptim'
+# cask 'imageoptim'
 # brew 'jhead'
 # brew 'webp'
 
@@ -196,6 +199,7 @@ cask 'jubler'
 cask 'skype'
 cask 'limechat'
 cask 'whatsapp'
+cask 'zoomus'
 
 
 
@@ -209,6 +213,8 @@ cask 'poedit'
 cask 'font-microsoft-office'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
+mas 'Numbers', id: 409203825
+# cask 'microsoft-office'
 
 
 
@@ -245,6 +251,7 @@ cask 'xmind'
 cask 'nudgit'
 # cask 'anyipsum'
 mas 'LittleIpsum', id: 405772121
+cask 'axure-rp'
 
 
 
@@ -269,10 +276,10 @@ cask 'screaming-frog-seo-spider'
 # MISSING - TO INSTALL MANUALLY
 # ###################################################################################################################################################
 
-# Axure - https://www.axure.com/
 # LightZone - http://lightzoneproject.org/
 # Microsoft Office 2016
 # Printer Canon Pixma MP495 (scan & print)
 # Printer Canon IJ Scan Utility
 # Printer Canon iR-ADV C2020L/2030L
 # Printer Brother MFC-9465CDN
+# Update of Hasselblad Phocus is not current
