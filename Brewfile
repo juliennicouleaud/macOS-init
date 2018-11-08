@@ -113,7 +113,6 @@ cask 'borgbackup'
 
 cask 'firefox'
 cask 'firefox-developer-edition'
-cask 'google-chrome-canary'
 brew 'lynx'
 cask 'brave'
 # cask 'vivaldi'
