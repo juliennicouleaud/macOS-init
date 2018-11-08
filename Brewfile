@@ -68,7 +68,7 @@ brew 'zsh-completions'
 # Utilitaires
 # ###################################################################################################################################################
 
-# Quicklook For README, INSTALL, Rakefile, Makefile…
+# Quicklook for files without extension (README, INSTALL, Rakefile, Makefile…)
 cask 'qlstephen'
 # Quicklook for webp
 cask 'webpquicklook'
@@ -94,7 +94,6 @@ cask 'send-anywhere'
 cask 'spectacle'
 mas 'Pocket', id: 568494494
 mas 'Trello', id: 1278508951
-# cask 'bitwarden'
 
 
 
@@ -202,7 +201,6 @@ cask 'soda-player'
 # cask 'slack'
 # cask 'hipchat'
 cask 'skype'
-cask 'limechat'
 cask 'whatsapp'
 cask 'zoomus'
 
@@ -238,6 +236,7 @@ cask 'sim-daltonism'
 # brew 'gpg2'
 cask 'macpass'
 cask 'private-internet-access'
+# cask 'bitwarden'
 
 
 
