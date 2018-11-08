@@ -94,7 +94,7 @@ cask 'send-anywhere'
 cask 'spectacle'
 mas 'Pocket', id: 568494494
 mas 'Trello', id: 1278508951
-cask 'bitwarden'
+# cask 'bitwarden'
 
 
 
@@ -114,7 +114,7 @@ cask 'borgbackup'
 
 cask 'firefox'
 cask 'firefox-developer-edition'
-cask 'google-chrome'
+# cask 'google-chrome'
 # cask 'google-chrome-canary'
 brew 'lynx'
 cask 'brave'
@@ -291,3 +291,4 @@ cask 'screaming-frog-seo-spider'
 # Printer Canon IJ Scan Utility
 # Printer Canon iR-ADV C2020L/2030L
 # Printer Brother MFC-9465CDN
+# Google Chrome
