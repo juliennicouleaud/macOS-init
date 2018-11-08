@@ -10,8 +10,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'homebrew/homebrew-php'
 tap 'caskroom/drivers'
 tap 'colindean/fonts-nonfree'
 
@@ -47,6 +45,8 @@ cask 'Cyberduck'
 brew 'stormssh'
 cask 'tunnelblick'
 cask 'ngrok'
+cask 'airpass'
+cask 'battle-net'
 
 
 
@@ -90,7 +90,7 @@ cask 'dropbox'
 cask 'itsycal'
 cask 'macdown'
 cask 'numi'
-mas 'Send Anywhere - File Transfer', id: 1016349934
+cask 'send-anywhere'
 cask 'spectacle'
 mas 'Pocket', id: 568494494
 mas 'Trello', id: 1278508951
@@ -117,7 +117,7 @@ cask 'firefox-developer-edition'
 cask 'google-chrome'
 # cask 'google-chrome-canary'
 brew 'lynx'
-# cask 'brave'
+cask 'brave'
 # cask 'vivaldi'
 
 
@@ -131,6 +131,7 @@ cask 'sourcetree'
 brew 'python3'
 brew 'composer'
 brew 'gandi.cli'
+brew 'wp-cli'
 
 brew 'ansible'
 cask 'vagrant'
@@ -186,6 +187,10 @@ cask 'phocus'
 
 cask 'java'
 cask 'jubler'
+
+cask 'kap'
+cask 'caption'
+cask 'soda-player'
 
 
 
@@ -244,7 +249,7 @@ cask 'craftmanager'
 mas 'Gravit Designer', id: 1207744923
 cask 'invisionsync'
 mas 'Pixelmator', id: 407963104
-cask 'sip'
+# cask 'sip'
 cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
@@ -273,13 +278,16 @@ cask 'screaming-frog-seo-spider'
 
 
 # ###################################################################################################################################################
-# MISSING - TO INSTALL MANUALLY
+# ###################################################################################################################################################
+# ###################################################################################################################################################
+# TO INSTALL MANUALLY
+# ###################################################################################################################################################
+# ###################################################################################################################################################
 # ###################################################################################################################################################
 
-# LightZone - http://lightzoneproject.org/
+# LightZone - http://lightzoneproject.org/ (cannot be added since requires login)
 # Microsoft Office 2016
 # Printer Canon Pixma MP495 (scan & print)
 # Printer Canon IJ Scan Utility
 # Printer Canon iR-ADV C2020L/2030L
 # Printer Brother MFC-9465CDN
-# Update of Hasselblad Phocus is not current
