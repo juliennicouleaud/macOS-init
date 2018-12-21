@@ -107,6 +107,7 @@ cask 'transmission'
 
 brew 'mackup'
 cask 'google-backup-and-sync'
+cask 'google-drive-file-stream'
 cask 'borgbackup'
 
 
