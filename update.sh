@@ -7,7 +7,6 @@ brew outdated
 brew upgrade
 brew cleanup
 brew doctor
-brew prune
 
 # Clean Cask cache
 brew cleanup
