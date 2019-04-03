@@ -99,6 +99,9 @@ cask 'muzzle'
 cask 'tyke'
 cask 'transmission'
 
+cask 'joplin'
+cask 'nextcloud'
+
 
 
 # ###################################################################################################################################################
@@ -107,7 +110,7 @@ cask 'transmission'
 
 brew 'mackup'
 cask 'google-backup-and-sync'
-cask 'google-drive-file-stream'
+# cask 'google-drive-file-stream'
 cask 'borgbackup'
 
 
@@ -242,7 +245,7 @@ cask 'sim-daltonism'
 # brew 'gpg2'
 cask 'macpass'
 cask 'private-internet-access'
-# cask 'bitwarden'
+cask 'bitwarden'
 
 
 
@@ -254,7 +257,6 @@ cask 'craftmanager'
 mas 'Gravit Designer', id: 1207744923
 cask 'invisionsync'
 mas 'Pixelmator', id: 407963104
-# cask 'sip'
 cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
