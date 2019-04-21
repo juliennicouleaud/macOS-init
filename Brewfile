@@ -46,7 +46,7 @@ brew 'stormssh'
 cask 'tunnelblick'
 cask 'ngrok'
 cask 'airpass'
-cask 'battle-net'
+# cask 'battle-net'
 
 
 
@@ -86,7 +86,7 @@ cask 'alfred'
 cask 'appcleaner'
 mas 'Bear', id: 1091189122
 cask 'caffeine'
-cask 'dropbox'
+# cask 'dropbox'
 cask 'itsycal'
 cask 'macdown'
 cask 'numi'
@@ -212,6 +212,7 @@ cask 'skype'
 cask 'whatsapp'
 cask 'zoomus'
 mas 'LimeChat', id: 414030210
+cask 'google-chat'
 
 
 
