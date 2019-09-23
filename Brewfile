@@ -42,10 +42,10 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-brew 'stormssh'
+# brew 'stormssh'
 cask 'tunnelblick'
 cask 'ngrok'
-cask 'airpass'
+# cask 'airpass'
 # cask 'battle-net'
 
 
@@ -96,7 +96,7 @@ mas 'Pocket', id: 568494494
 mas 'Trello', id: 1278508951
 
 cask 'muzzle'
-cask 'tyke'
+# cask 'tyke'
 cask 'transmission'
 
 cask 'joplin'
@@ -109,7 +109,7 @@ cask 'nextcloud'
 # ###################################################################################################################################################
 
 brew 'mackup'
-cask 'google-backup-and-sync'
+# cask 'google-backup-and-sync'
 # cask 'google-drive-file-stream'
 cask 'borgbackup'
 
@@ -120,9 +120,9 @@ cask 'borgbackup'
 # ###################################################################################################################################################
 
 cask 'firefox'
-cask 'firefox-developer-edition'
+# cask 'firefox-developer-edition'
 brew 'lynx'
-cask 'brave'
+# cask 'brave'
 # cask 'vivaldi'
 
 
@@ -138,18 +138,21 @@ brew 'composer'
 brew 'gandi.cli'
 brew 'wp-cli'
 
-brew 'ansible'
-cask 'vagrant'
+# brew 'ansible'
+# cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'gas-mask'
 
-cask 'atom'
-cask 'sublime-text'
+# cask 'atom'
+# cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'font-fira-code'
+# cask 'pycharm-ce'
 
 # cask 'sequel-pro'
+
+cask 'docker'
 
 
 
@@ -183,9 +186,10 @@ brew 'hugo'
 # brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
 cask 'handbrake'
 cask 'spotify'
-cask 'vlc'
-cask 'mplayerx'
-cask 'vox'
+# cask 'vlc'
+# cask 'mplayerx'
+cask 'iina'
+# cask 'vox'
 cask 'phocus'
 
 # cask 'calibre'
@@ -193,11 +197,11 @@ cask 'phocus'
 cask 'java'
 cask 'jubler'
 
-cask 'kap'
-cask 'caption'
+# cask 'kap'
+# cask 'caption'
 cask 'soda-player'
 
-cask 'licecap'
+# cask 'licecap'
 
 
 
@@ -205,7 +209,6 @@ cask 'licecap'
 # Communication
 # ###################################################################################################################################################
 
-# cask 'rambox'
 # cask 'slack'
 # cask 'hipchat'
 cask 'skype'
@@ -221,12 +224,12 @@ cask 'google-chat'
 # ###################################################################################################################################################
 
 cask 'openoffice'
-brew 'pandoc'
+# brew 'pandoc'
 cask 'poedit'
 cask 'font-microsoft-office'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
-mas 'Numbers', id: 409203825
+# mas 'Numbers', id: 409203825
 # cask 'microsoft-office'
 
 
@@ -246,7 +249,8 @@ cask 'sim-daltonism'
 # brew 'gpg2'
 cask 'macpass'
 cask 'private-internet-access'
-cask 'bitwarden'
+# cask 'bitwarden'
+brew 'testssl'
 
 
 
@@ -255,16 +259,16 @@ cask 'bitwarden'
 # ###################################################################################################################################################
 
 cask 'craftmanager'
-mas 'Gravit Designer', id: 1207744923
+# mas 'Gravit Designer', id: 1207744923
 cask 'invisionsync'
 mas 'Pixelmator', id: 407963104
 cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
-cask 'nudgit'
+# cask 'nudgit'
 # cask 'anyipsum'
 mas 'LittleIpsum', id: 405772121
-cask 'axure-rp'
+# cask 'axure-rp'
 
 
 
