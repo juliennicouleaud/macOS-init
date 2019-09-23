@@ -70,9 +70,7 @@ brew 'zsh-completions'
 
 # Quicklook for files without extension (README, INSTALL, Rakefile, Makefile…)
 cask 'qlstephen'
-# Quicklook for webp
 cask 'webpquicklook'
-# Quicklook for other formats
 cask 'qlmarkdown'
 cask 'quicklook-csv'
 cask 'quicklook-json'
