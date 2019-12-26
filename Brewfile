@@ -120,8 +120,6 @@ cask 'borgbackup'
 cask 'firefox'
 # cask 'firefox-developer-edition'
 brew 'lynx'
-# cask 'brave'
-# cask 'vivaldi'
 
 
 
@@ -142,7 +140,6 @@ cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'gas-mask'
 
-# cask 'atom'
 # cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'font-fira-code'
@@ -184,13 +181,8 @@ brew 'hugo'
 # brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
 cask 'handbrake'
 cask 'spotify'
-# cask 'vlc'
-# cask 'mplayerx'
 cask 'iina'
-# cask 'vox'
 cask 'phocus'
-
-# cask 'calibre'
 
 cask 'java'
 cask 'jubler'
@@ -258,13 +250,11 @@ brew 'testssl'
 
 cask 'craftmanager'
 # mas 'Gravit Designer', id: 1207744923
-cask 'invisionsync'
 mas 'Pixelmator', id: 407963104
 cask 'skala-preview'
 cask 'sketch'
 cask 'xmind'
 # cask 'nudgit'
-# cask 'anyipsum'
 mas 'LittleIpsum', id: 405772121
 # cask 'axure-rp'
 
