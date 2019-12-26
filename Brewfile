@@ -42,11 +42,13 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-# brew 'stormssh'
+brew 'stormssh'
+brew 'stormssh-completion'
 cask 'tunnelblick'
 cask 'ngrok'
 # cask 'airpass'
 # cask 'battle-net'
+brew 'openvpn'
 
 
 
@@ -100,6 +102,7 @@ cask 'transmission'
 cask 'joplin'
 cask 'nextcloud'
 
+cask 'onyx'
 
 
 # ###################################################################################################################################################
@@ -110,6 +113,7 @@ brew 'mackup'
 # cask 'google-backup-and-sync'
 # cask 'google-drive-file-stream'
 cask 'borgbackup'
+cask 'timemachineeditor'
 
 
 
@@ -187,8 +191,8 @@ cask 'phocus'
 cask 'java'
 cask 'jubler'
 
-# cask 'kap'
-# cask 'caption'
+cask 'kap'
+cask 'caption'
 cask 'soda-player'
 
 # cask 'licecap'
@@ -214,12 +218,12 @@ cask 'google-chat'
 # ###################################################################################################################################################
 
 cask 'openoffice'
-# brew 'pandoc'
+brew 'pandoc'
 cask 'poedit'
 cask 'font-microsoft-office'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
-# mas 'Numbers', id: 409203825
+mas 'Numbers', id: 409203825
 # cask 'microsoft-office'
 
 
