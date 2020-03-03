@@ -295,3 +295,4 @@ cask 'aerial'
 # Printer Canon iR-ADV C2020L/2030L
 # Printer Brother MFC-9465CDN
 # Google Chrome
+# Iconset - https://iconset.io/
