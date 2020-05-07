@@ -76,6 +76,7 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
+cask 'qladdict'
 
 cask 'the-unarchiver'
 cask 'adobe-acrobat-reader'
