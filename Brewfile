@@ -107,6 +107,7 @@ brew 'pandoc'
 
 brew 'mackup'
 cask 'borgbackup'
+brew 'borgmatic'
 cask 'timemachineeditor'
 
 
@@ -202,6 +203,7 @@ cask 'zoomus'
 mas 'LimeChat', id: 414030210
 cask 'google-chat'
 cask 'discord'
+webex-meetings
 
 
 
