@@ -41,14 +41,14 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-brew 'stormssh'
-brew 'stormssh-completion'
 cask 'ngrok'
 brew 'openvpn'
 mas 'WireGuard', id: 1451685025
 
 # brew 'rsync'
 # cask 'airpass'
+# brew 'stormssh'
+# brew 'stormssh-completion'
 
 
 
