@@ -41,6 +41,7 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
+mas 'ForkLift', id: 412448059
 cask 'ngrok'
 brew 'openvpn'
 mas 'WireGuard', id: 1451685025
@@ -77,6 +78,9 @@ cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qladdict'
+mas 'Glance', id: 1513574319
+brew 'fzf'
+brew 'htop'
 
 cask 'the-unarchiver'
 cask 'adobe-acrobat-reader'
@@ -96,8 +100,6 @@ cask 'joplin'
 cask 'nextcloud'
 cask 'onyx'
 brew 'pandoc'
-
-# cask 'android-file-transfer'
 
 
 
@@ -128,6 +130,7 @@ brew 'lynx'
 # ###################################################################################################################################################
 
 brew 'git'
+brew 'lazygit'
 cask 'sourcetree'
 cask 'github'
 cask 'sublime-text'
@@ -139,7 +142,6 @@ cask 'poedit'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
-cask 'font-fira-code'
 cask 'docker'
 
 # brew 'ansible'
@@ -186,6 +188,8 @@ cask 'java'
 cask 'jubler'
 cask 'soda-player'
 
+# cask 'xnconvert'
+# mas 'black-out', id: 1319884285
 # cask 'caption'
 # cask 'kap'
 # brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
@@ -202,8 +206,10 @@ cask 'whatsapp'
 cask 'zoomus'
 mas 'LimeChat', id: 414030210
 cask 'google-chat'
-cask 'discord'
-webex-meetings
+cask 'webex-meetings'
+cask 'wacom-tablet'
+
+# cask 'discord'
 
 
 
@@ -212,10 +218,22 @@ webex-meetings
 # ###################################################################################################################################################
 
 cask 'openoffice'
-cask 'font-microsoft-office'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
+cask 'netnewswire'
+
+
+
+# ###################################################################################################################################################
+# Fonts
+# ###################################################################################################################################################
+
+cask 'font-fira-code'
+cask 'font-microsoft-office'
+cask 'font-source-sans-pro'
+cask 'font-open-sans'
+cask 'font-libre-baskerville'
 
 
 
