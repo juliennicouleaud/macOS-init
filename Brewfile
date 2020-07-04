@@ -143,6 +143,7 @@ cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'docker'
+cask 'responsively'
 
 # brew 'ansible'
 # cask 'vagrant'
@@ -208,6 +209,7 @@ mas 'LimeChat', id: 414030210
 cask 'google-chat'
 cask 'webex-meetings'
 cask 'wacom-tablet'
+cask 'jitsi'
 
 # cask 'discord'
 
