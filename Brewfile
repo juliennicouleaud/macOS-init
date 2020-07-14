@@ -225,6 +225,8 @@ mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
 cask 'netnewswire'
+brew 'tesseract'
+brew 'tesseract-lang'
 
 
 
