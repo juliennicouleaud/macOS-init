@@ -100,6 +100,7 @@ cask 'joplin'
 cask 'nextcloud'
 cask 'onyx'
 brew 'pandoc'
+brew 'rclone'
 
 
 
@@ -209,7 +210,7 @@ mas 'LimeChat', id: 414030210
 cask 'google-chat'
 cask 'webex-meetings'
 cask 'wacom-tablet'
-cask 'jitsi'
+cask 'jitsi-meet'
 
 # cask 'discord'
 
