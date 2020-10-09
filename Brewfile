@@ -264,6 +264,7 @@ cask 'sim-daltonism'
 cask 'macpass'
 cask 'private-internet-access'
 cask 'bitwarden'
+cask 'lulu'
 brew 'testssl'
 
 # brew 'gpg2'
