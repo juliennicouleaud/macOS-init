@@ -233,6 +233,7 @@ mas 'Numbers', id: 409203825
 cask 'netnewswire'
 brew 'tesseract'
 brew 'tesseract-lang'
+cask 'deepl'
 
 
 
