@@ -108,11 +108,12 @@ brew 'rclone'
 # Outils de backup et synchro
 # ###################################################################################################################################################
 
-brew 'mackup'
 cask 'borgbackup'
-brew 'borgmatic'
+cask 'vorta'
 cask 'timemachineeditor'
 
+# brew 'borgmatic'
+# brew 'mackup'
 
 
 # ###################################################################################################################################################
@@ -185,11 +186,11 @@ cask 'handbrake'
 cask 'spotify'
 cask 'iina'
 cask 'phocus'
-cask 'vox'
 cask 'java'
 cask 'jubler'
 cask 'soda-player'
 
+# cask 'vox'
 # cask 'xnconvert'
 # mas 'black-out', id: 1319884285
 # cask 'caption'
@@ -207,12 +208,12 @@ cask 'skype'
 cask 'whatsapp'
 cask 'zoomus'
 mas 'LimeChat', id: 414030210
-cask 'google-chat'
 cask 'webex-meetings'
 cask 'wacom-tablet'
 cask 'jitsi-meet'
 
 # cask 'discord'
+# cask 'google-chat'
 
 
 
