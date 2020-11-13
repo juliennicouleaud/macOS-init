@@ -113,7 +113,7 @@ brew 'rclone'
 # Outils de backup et synchro
 # ###################################################################################################################################################
 
-cask 'borgbackup'
+brew 'borgbackup'
 cask 'vorta'
 cask 'timemachineeditor'
 
