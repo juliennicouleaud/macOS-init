@@ -216,6 +216,7 @@ mas 'LimeChat', id: 414030210
 cask 'webex-meetings'
 cask 'wacom-tablet'
 cask 'jitsi-meet'
+cask 'slack'
 
 # cask 'discord'
 # cask 'google-chat'
