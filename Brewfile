@@ -64,7 +64,6 @@ mas 'WireGuard', id: 1451685025
 
 cask 'iterm2'
 brew 'autojump'
-brew 'rmtrash'
 brew 'zsh'
 brew 'zsh-completions'
 
