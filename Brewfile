@@ -216,6 +216,7 @@ cask 'webex-meetings'
 cask 'wacom-tablet'
 cask 'jitsi-meet'
 cask 'slack'
+cask 'rocket-chat'
 
 # cask 'discord'
 # cask 'google-chat'
