@@ -227,7 +227,8 @@ cask 'rocket-chat'
 # Bureautique
 # ###################################################################################################################################################
 
-cask 'openoffice'
+cask 'libreoffice'
+cask 'libreoffice-language-pack'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
