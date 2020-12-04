@@ -210,7 +210,7 @@ cask 'soda-player'
 
 cask 'skype'
 cask 'whatsapp'
-cask 'zoomus'
+cask 'zoom'
 mas 'LimeChat', id: 414030210
 cask 'webex-meetings'
 cask 'wacom-tablet'
