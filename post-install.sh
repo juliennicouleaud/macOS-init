@@ -29,7 +29,7 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 brew update
 
 # Installer Dropbox au plus tôt pour lancer la synchro des settings
-brew cask install google-backup-and-sync
+brew install google-backup-and-sync
 echo "Ouverture de Google Backup and Sync pour commencer la synchronisation"
 open -a Backup\ and\ Sync
 

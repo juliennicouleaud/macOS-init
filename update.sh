@@ -33,8 +33,8 @@ do
         echo "Ok! Doing nothing."
     else
         echo "Ok! Let's update ${green}${updateAvailable}${green}!"
-        (set -x; brew cask uninstall $updateAvailable --force;)
-        (set -x; brew cask install $updateAvailable --force;)
+        (set -x; brew uninstall $updateAvailable --force;)
+        (set -x; brew install $updateAvailable --force;)
     fi
 done
 
