@@ -34,7 +34,7 @@ do
     else
         echo "Ok! Let's update ${green}${updateAvailable}${green}!"
         (set -x; brew uninstall $updateAvailable --force;)
-        (set -x; brew install $updateAvailable --force;)
+        (set -x; brew install $updateAvailable --cask --force;)
     fi
 done
 
