@@ -236,6 +236,7 @@ cask 'netnewswire'
 brew 'tesseract'
 brew 'tesseract-lang'
 cask 'deepl'
+cask 'canon-ijscanner1'
 
 
 
@@ -283,6 +284,8 @@ mas 'Pixelmator', id: 407963104
 cask 'sketch'
 cask 'xmind'
 mas 'LittleIpsum', id: 405772121
+cask 'iconset'
+cask 'miro'
 
 # cask 'skala-preview'
 # cask 'nudgit'
@@ -318,8 +321,6 @@ cask 'aerial'
 # LightZone - http://lightzoneproject.org/ (cannot be added since requires login)
 # Microsoft Office 2016
 # Printer Canon Pixma MP495 (scan & print)
-# Printer Canon IJ Scan Utility
-# Printer Canon iR-ADV C2020L/2030L
-# Printer Brother MFC-9465CDN
+# WORK : Printer Canon iR-ADV C2020L/2030L
+# WORK : Printer Brother MFC-9465CDN
 # Google Chrome
-# Iconset - https://iconset.io/
