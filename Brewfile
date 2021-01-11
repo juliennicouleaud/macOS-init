@@ -213,10 +213,11 @@ cask 'whatsapp'
 cask 'zoom'
 mas 'LimeChat', id: 414030210
 cask 'webex-meetings'
-cask 'wacom-tablet'
+
 cask 'jitsi-meet'
 cask 'slack'
 cask 'rocket-chat'
+cask 'microsoft-teams'
 
 # cask 'discord'
 # cask 'google-chat'
@@ -286,11 +287,7 @@ cask 'xmind'
 mas 'LittleIpsum', id: 405772121
 cask 'iconset'
 cask 'miro'
-
-# cask 'skala-preview'
-# cask 'nudgit'
-# mas 'Gravit Designer', id: 1207744923
-# cask 'axure-rp'
+cask 'wacom-tablet'
 
 
 
