@@ -96,7 +96,7 @@ cask 'itsycal'
 cask 'macdown'
 cask 'numi'
 cask 'send-anywhere'
-cask 'spectacle'
+cask 'rectangle'
 mas 'Pocket', id: 568494494
 mas 'Trello', id: 1278508951
 cask 'muzzle'
