@@ -85,6 +85,7 @@ cask 'qladdict'
 mas 'Glance', id: 1513574319
 brew 'fzf'
 brew 'htop'
+brew 'neofetch'
 
 cask 'the-unarchiver'
 cask 'adobe-acrobat-reader'
@@ -287,6 +288,7 @@ mas 'LittleIpsum', id: 405772121
 cask 'iconset'
 cask 'miro'
 cask 'wacom-tablet'
+cask 'xnconvert'
 
 
 
