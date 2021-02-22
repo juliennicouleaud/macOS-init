@@ -213,6 +213,7 @@ cask 'skype'
 cask 'whatsapp'
 cask 'zoom'
 mas 'LimeChat', id: 414030210
+cask 'signal'
 cask 'jitsi-meet'
 cask 'slack'
 cask 'rocket-chat'
