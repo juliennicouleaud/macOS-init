@@ -190,11 +190,11 @@ brew 'hugo'
 cask 'handbrake'
 cask 'spotify'
 cask 'iina'
-cask 'phocus'
 cask 'java'
 cask 'jubler'
 cask 'soda-player'
 
+# cask 'phocus'
 # cask 'vox'
 # cask 'xnconvert'
 # mas 'black-out', id: 1319884285
@@ -234,11 +234,12 @@ cask 'libreoffice-language-pack'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
-cask 'netnewswire'
 brew 'tesseract'
 brew 'tesseract-lang'
 cask 'deepl'
 cask 'canon-ijscanner1'
+
+# cask 'netnewswire'
 
 
 
@@ -267,12 +268,12 @@ cask 'sim-daltonism'
 # Securite
 # ###################################################################################################################################################
 
-cask 'macpass'
 cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
 brew 'testssl'
 
+# cask 'macpass'
 # brew 'gpg2'
 
 
@@ -287,9 +288,10 @@ cask 'sketch'
 cask 'xmind'
 mas 'LittleIpsum', id: 405772121
 cask 'iconset'
-cask 'miro'
 cask 'wacom-tablet'
 cask 'xnconvert'
+
+# cask 'miro'
 
 
 
