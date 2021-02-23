@@ -86,7 +86,8 @@ mas 'Glance', id: 1513574319
 brew 'fzf'
 brew 'htop'
 brew 'neofetch'
-
+cask 'balenaetcher'
+cask 'unetbootin'
 cask 'the-unarchiver'
 cask 'adobe-acrobat-reader'
 cask 'alfred'
