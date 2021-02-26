@@ -71,6 +71,7 @@ brew 'htop'
 brew 'neofetch'
 brew 'pandoc'
 brew 'rclone'
+brew 'cheat'
 
 
 
