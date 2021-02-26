@@ -66,6 +66,11 @@ cask 'iterm2'
 brew 'autojump'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'fzf'
+brew 'htop'
+brew 'neofetch'
+brew 'pandoc'
+brew 'rclone'
 
 
 
@@ -82,10 +87,6 @@ cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qladdict'
-mas 'Glance', id: 1513574319
-brew 'fzf'
-brew 'htop'
-brew 'neofetch'
 cask 'balenaetcher'
 cask 'unetbootin'
 cask 'the-unarchiver'
@@ -98,15 +99,14 @@ cask 'macdown'
 cask 'numi'
 cask 'send-anywhere'
 cask 'rectangle'
-mas 'Pocket', id: 568494494
-mas 'Trello', id: 1278508951
 cask 'muzzle'
 cask 'transmission'
 cask 'joplin'
 cask 'nextcloud'
 cask 'onyx'
-brew 'pandoc'
-brew 'rclone'
+mas 'Glance', id: 1513574319
+mas 'Pocket', id: 568494494
+mas 'Trello', id: 1278508951
 
 
 
