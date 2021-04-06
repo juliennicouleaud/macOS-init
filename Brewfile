@@ -274,6 +274,7 @@ cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
 brew 'testssl'
+cask 'veracrypt'
 
 # cask 'macpass'
 # brew 'gpg2'
