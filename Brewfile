@@ -145,7 +145,6 @@ cask 'github'
 cask 'sublime-text'
 brew 'python3'
 brew 'composer'
-brew 'gandi.cli'
 brew 'wp-cli'
 cask 'poedit'
 cask 'virtualbox'
@@ -153,6 +152,7 @@ cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'docker'
 
+# brew 'gandi.cli'
 # cask 'responsively'
 # brew 'ansible'
 # cask 'vagrant'
@@ -211,16 +211,16 @@ cask 'soda-player'
 # Communication
 # ###################################################################################################################################################
 
-cask 'skype'
 cask 'whatsapp'
 cask 'zoom'
-mas 'LimeChat', id: 414030210
 cask 'signal'
-cask 'jitsi-meet'
 cask 'slack'
 cask 'rocket-chat'
 cask 'microsoft-teams'
 
+# cask 'skype'
+# mas 'LimeChat', id: 414030210
+# cask 'jitsi-meet'
 # cask 'webex-meetings'
 # cask 'discord'
 # cask 'google-chat'
