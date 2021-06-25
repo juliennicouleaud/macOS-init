@@ -47,6 +47,7 @@ brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
 mas 'ForkLift', id: 412448059
+brew 'duck'
 cask 'ngrok'
 brew 'openvpn'
 mas 'WireGuard', id: 1451685025
