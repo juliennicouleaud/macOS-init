@@ -29,9 +29,9 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 brew update
 
 # Installer Dropbox au plus tôt pour lancer la synchro des settings
-brew install google-backup-and-sync
-echo "Ouverture de Google Backup and Sync pour commencer la synchronisation"
-open -a Backup\ and\ Sync
+# brew install google-backup-and-sync
+# echo "Ouverture de Google Backup and Sync pour commencer la synchronisation"
+# open -a Backup\ and\ Sync
 
 # Installer les nouvelles applications du bundle Brewfile
 # et mettre à jour celles déjà présentes
@@ -53,9 +53,9 @@ brew bundle
 # Installation de composants Node
 # npm install -g npm
 
-echo "Installation d'applications en Node"
+# echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
-npm install -g tldr
+# npm install -g tldr
 # npm install -g http-serve
 
 # echo "Finalisation de l'installation de PHP"
@@ -78,4 +78,4 @@ rm -f -r /Library/Caches/Homebrew/*
 
 echo ""
 echo "ET VOILÀ !"
-echo "Après synchronisation des données Google Drive (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
+# echo "Après synchronisation des données Google Drive (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
