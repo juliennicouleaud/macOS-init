@@ -11,11 +11,6 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
-
-# tap 'caskroom/cask'
-# tap 'caskroom/fonts'
-# tap 'caskroom/versions'
-# tap 'caskroom/drivers'
 tap 'colindean/fonts-nonfree'
 
 
@@ -30,10 +25,11 @@ cask_args appdir: '/Applications'
 
 # ###################################################################################################################################################
 # Permettre l'installation d'applications de l'AppStore
+# SVN pour installer les polices
 # ###################################################################################################################################################
 
 brew 'mas'
-
+brew 'svn'
 
 
 # ###################################################################################################################################################
@@ -47,10 +43,10 @@ brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
 brew 'duck'
-cask 'ngrok'
 brew 'openvpn'
-mas 'WireGuard', id: 1451685025
 
+# cask 'ngrok'
+# mas 'WireGuard', id: 1451685025
 # brew 'rsync'
 # cask 'airpass'
 # brew 'stormssh'
@@ -64,14 +60,15 @@ mas 'WireGuard', id: 1451685025
 
 cask 'iterm2'
 brew 'autojump'
-brew 'zsh'
 brew 'zsh-completions'
-brew 'fzf'
 brew 'htop'
-brew 'neofetch'
-brew 'pandoc'
 brew 'rclone'
 brew 'cheat'
+
+# brew 'zsh'
+# brew 'fzf'
+# brew 'pandoc'
+# brew 'neofetch'
 
 
 
@@ -107,7 +104,8 @@ cask 'nextcloud'
 cask 'onyx'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
-mas 'Trello', id: 1278508951
+
+#mas 'Trello', id: 1278508951
 
 
 
@@ -139,19 +137,19 @@ brew 'lynx'
 # ###################################################################################################################################################
 
 brew 'git'
-brew 'lazygit'
 cask 'sourcetree'
 cask 'github'
 cask 'sublime-text'
-brew 'python3'
-brew 'composer'
-brew 'wp-cli'
 cask 'poedit'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
-cask 'docker'
 
+# brew 'lazygit'
+# brew 'composer'
+# brew 'wp-cli'
+# cask 'docker'
+# brew 'python3'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
 # brew 'gandi.cli'
 # cask 'responsively'
 # brew 'ansible'
@@ -192,10 +190,10 @@ brew 'hugo'
 cask 'handbrake'
 cask 'spotify'
 cask 'iina'
-cask 'java'
 cask 'jubler'
 cask 'soda-player'
 
+# cask 'java'
 # cask 'phocus'
 # cask 'vox'
 # cask 'xnconvert'
@@ -274,8 +272,8 @@ cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
 brew 'testssl'
-cask 'veracrypt'
 
+# cask 'veracrypt'
 # cask 'macpass'
 # brew 'gpg2'
 
