@@ -44,6 +44,7 @@ brew 'curl'
 cask 'Cyberduck'
 brew 'duck'
 brew 'openvpn'
+cask 'pritunl'
 
 # cask 'ngrok'
 # mas 'WireGuard', id: 1451685025
@@ -100,11 +101,11 @@ cask 'rectangle'
 cask 'muzzle'
 cask 'transmission'
 cask 'joplin'
-cask 'nextcloud'
 cask 'onyx'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'nextcloud'
 #mas 'Trello', id: 1278508951
 
 
@@ -221,7 +222,6 @@ cask 'microsoft-teams'
 # cask 'jitsi-meet'
 # cask 'webex-meetings'
 # cask 'discord'
-# cask 'google-chat'
 
 
 
