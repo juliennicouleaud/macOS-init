@@ -94,7 +94,6 @@ cask 'alfred'
 cask 'appcleaner'
 cask 'caffeine'
 cask 'itsycal'
-cask 'macdown'
 cask 'numi'
 cask 'send-anywhere'
 cask 'rectangle'
@@ -105,6 +104,7 @@ cask 'onyx'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'macdown'
 # cask 'nextcloud'
 #mas 'Trello', id: 1278508951
 
@@ -250,6 +250,7 @@ cask 'canon-ijscanner1'
 cask 'font-fira-code'
 cask 'font-microsoft-office'
 cask 'font-source-sans-pro'
+cask 'font-roboto'
 cask 'font-open-sans'
 cask 'font-libre-baskerville'
 
