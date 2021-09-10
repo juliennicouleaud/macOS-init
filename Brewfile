@@ -42,10 +42,10 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-brew 'duck'
 brew 'openvpn'
 cask 'pritunl'
 
+# brew 'duck'
 # cask 'ngrok'
 # mas 'WireGuard', id: 1451685025
 # brew 'rsync'
