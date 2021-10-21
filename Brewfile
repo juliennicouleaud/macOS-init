@@ -12,6 +12,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask-drivers'
 tap 'colindean/fonts-nonfree'
+tap 'cantino/mcfly'
 
 
 
@@ -65,6 +66,7 @@ brew 'zsh-completions'
 brew 'htop'
 brew 'rclone'
 brew 'cheat'
+brew 'mcfly'
 
 # brew 'zsh'
 # brew 'fzf'
@@ -213,10 +215,10 @@ cask 'soda-player'
 cask 'whatsapp'
 cask 'zoom'
 cask 'signal'
-cask 'slack'
 cask 'rocket-chat'
 cask 'microsoft-teams'
 
+# cask 'slack'
 # cask 'skype'
 # mas 'LimeChat', id: 414030210
 # cask 'jitsi-meet'
