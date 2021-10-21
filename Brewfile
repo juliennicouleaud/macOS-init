@@ -41,8 +41,8 @@ brew 'ssh-copy-id'
 brew 'openssl'
 brew 'wget'
 brew 'curl'
-cask 'Cyberduck'
 brew 'openvpn'
+cask 'Cyberduck'
 cask 'pritunl'
 
 # brew 'duck'
@@ -234,12 +234,11 @@ cask 'libreoffice-language-pack'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
-brew 'tesseract'
-brew 'tesseract-lang'
 cask 'deepl'
 cask 'canon-ijscanner1'
 
-# cask 'netnewswire'
+# brew 'tesseract'
+# brew 'tesseract-lang'
 
 
 
@@ -293,7 +292,6 @@ cask 'iconset'
 cask 'wacom-tablet'
 cask 'xnconvert'
 
-# cask 'miro'
 
 
 
