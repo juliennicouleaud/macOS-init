@@ -27,7 +27,7 @@ updateAvailable=( $(brew outdated --cask --greedy --verbose | grep -v '(latest)'
 echo "Scanning the casks…"
 for updateAvailable in ${updateAvailable[@]}
 do
-    read -p "${red}${updateAvailable}${reset} requires ${red}update${reset}. Do youn want to update? (${green}y${reset}/${red}n${reset}) Default: ${red}no${reset} " -n 1 -r
+    read -p "${red}${updateAvailable}${reset} requires ${red}update${reset}. Do you want to update? (${green}y${reset}/${red}n${reset}) Default: ${red}no${reset} " -n 1 -r
     echo    # (optional) move to a new line
     if [[ ! $REPLY =~ ^[Yy]$ ]]; then
         echo "Ok! Doing nothing."
