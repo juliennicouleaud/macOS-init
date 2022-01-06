@@ -67,11 +67,11 @@ brew 'htop'
 brew 'rclone'
 brew 'cheat'
 brew 'mcfly'
+brew 'neofetch'
 
 # brew 'zsh'
 # brew 'fzf'
 # brew 'pandoc'
-# brew 'neofetch'
 
 
 
