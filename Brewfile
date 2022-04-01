@@ -68,6 +68,7 @@ brew 'rclone'
 brew 'cheat'
 brew 'mcfly'
 brew 'neofetch'
+brew 'tmux'
 
 # brew 'zsh'
 # brew 'fzf'
@@ -100,12 +101,12 @@ cask 'numi'
 cask 'send-anywhere'
 cask 'rectangle'
 cask 'muzzle'
-cask 'transmission'
 cask 'joplin'
 cask 'onyx'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'transmission'
 # cask 'macdown'
 # cask 'nextcloud'
 #mas 'Trello', id: 1278508951
@@ -142,6 +143,7 @@ brew 'lynx'
 brew 'git'
 cask 'sourcetree'
 cask 'github'
+cask 'meld'
 cask 'sublime-text'
 cask 'poedit'
 cask 'visual-studio-code'
@@ -194,8 +196,8 @@ cask 'handbrake'
 cask 'spotify'
 cask 'iina'
 cask 'jubler'
-cask 'soda-player'
 
+# cask 'soda-player'
 # cask 'java'
 # cask 'phocus'
 # cask 'vox'
@@ -293,6 +295,7 @@ mas 'LittleIpsum', id: 405772121
 cask 'iconset'
 cask 'wacom-tablet'
 cask 'xnconvert'
+cask 'figma'
 
 
 
