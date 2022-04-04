@@ -103,6 +103,7 @@ cask 'rectangle'
 cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
+cask 'barrier'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
@@ -290,6 +291,7 @@ brew 'testssl'
 cask 'craftmanager'
 mas 'Pixelmator', id: 407963104
 cask 'sketch'
+cask 'sketchbook'
 cask 'xmind'
 mas 'LittleIpsum', id: 405772121
 cask 'iconset'
