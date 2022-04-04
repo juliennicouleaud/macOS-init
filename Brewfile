@@ -328,7 +328,6 @@ cask 'aerial'
 
 # Google Chrome
 # Google Chat
-# Oh My Zsh - https://ohmyz.sh/#install
 # Printer Canon Pixma MP495 (scan & print) - https://www.canon.fr/support/consumer_products/products/fax__multifunctionals/inkjet/pixma_mp_series/pixma_mp495.html?type=drivers&language=fr&os=macos%2010.12%20(sierra)
 # Microsoft Office
 # WORK : Printer Canon iR-ADV C2020L/2030L
