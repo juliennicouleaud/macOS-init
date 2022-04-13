@@ -16,8 +16,8 @@ Ce script permet d'automatiser l'installation via [Homebrew](http://brew.sh "Hom
 
 ## Testé avec :
 
-- macOS High Sierra, Mojave, Catalina - Intel
 - macOS Big Sur (version 11.6) - M1
+- *Testé auparavant sur macOS High Sierra, Mojave, Catalina - Intel*
 
 ## Comment l'exécuter ?
 
