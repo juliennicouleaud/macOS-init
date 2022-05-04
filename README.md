@@ -1,25 +1,18 @@
-## Présentation
-
-Ce script permet d'automatiser l'installation via [Homebrew](http://brew.sh "Homebrew — The missing package manager for macOS") des logiciels que j'utilise habituellement sur Mac, ainsi que leur mise à jour.
+Ce script permet d'automatiser l'installation et la mise à jour via [Homebrew](http://brew.sh "Homebrew — The missing package manager for macOS") des logiciels que j'utilise habituellement sur Mac.
 
 ## Prérequis
 
-- Il faut être administrateur du Mac
-- Il faut s'être connecté au préalable à l'App Store
+- Être administrateur du Mac
+- Être connecté au préalable à l'App Store
 - Les apps à installer depuis l'App Store doivent déjà être associées à votre compte Apple
 
-## Le script exploite
+## Dépendances
 
 - [Homebrew](http://brew.sh "Homebrew — The missing package manager for macOS"),
 - [Cask](https://caskroom.github.io) pour installer les apps hors de l'App Store
 - [mas](https://github.com/mas-cli/mas) pour installer les apps de l'App Store
 
-## Testé avec :
-
-- macOS Big Sur (version 11.6) - M1
-- *Testé auparavant sur macOS High Sierra, Mojave, Catalina - Intel*
-
-## Comment l'exécuter ?
+## Exécution
 
 - Téléchargez la dernière version du projet ([lien direct](https://github.com/juliennicouleaud/macOS-init/archive/master.zip))
 - Ouvrez les fichiers `post-install.sh` et `Brewfile`, et modifiez ce qui est installé par défaut
@@ -35,5 +28,11 @@ Le script fonctionnera largement sans votre intervention, sauf :
   - pour le mot de passe administrateur nécessaire pour Cask
   - pour certains logiciels qui nécessitent un accès admin
 
+## Support
+
+- Version actuelle testée sur macOS Big Sur (version 11.6 - Architecture M1)
+- *Testé auparavant sur macOS High Sierra, Mojave, Catalina - Intel*
+
 ## Crédits
+
 Ce script est adapté et emprunté à [Nicolas Hoizey](https://github.com/nhoizey/macOS-init) et [Boris Schapira](https://github.com/borisschapira/macOS-init). Il est très largement inspiré de [celui de Nicolas Furno](https://github.com/nicolinuxfr/macOS-post-installation), qu'il a [décrit dans un article MacGénération](https://www.macg.co/logiciels/2017/01/un-script-pour-configurer-automatiquement-un-nouveau-mac-96652).
