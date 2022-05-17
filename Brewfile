@@ -89,9 +89,6 @@ cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qladdict'
-cask 'balenaetcher'
-cask 'unetbootin'
-cask 'the-unarchiver'
 cask 'adobe-acrobat-reader'
 cask 'alfred'
 cask 'appcleaner'
@@ -107,6 +104,8 @@ cask 'barrier'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'balenaetcher'
+# cask 'unetbootin'
 # cask 'transmission'
 # cask 'macdown'
 # cask 'nextcloud'
@@ -193,11 +192,11 @@ brew 'hugo'
 # Multimédia
 # ###################################################################################################################################################
 
-cask 'handbrake'
 cask 'spotify'
 cask 'iina'
-cask 'jubler'
 
+# cask 'jubler'
+# cask 'handbrake'
 # cask 'soda-player'
 # cask 'java'
 # cask 'phocus'
@@ -239,9 +238,9 @@ cask 'libreoffice-language-pack'
 mas 'Keynote', id: 409183694
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
-cask 'deepl'
 cask 'canon-ijscanner1'
 
+# cask 'deepl'
 # brew 'tesseract'
 # brew 'tesseract-lang'
 
