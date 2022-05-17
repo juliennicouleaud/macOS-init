@@ -43,9 +43,9 @@ brew 'openssl'
 brew 'wget'
 brew 'curl'
 brew 'openvpn'
-cask 'Cyberduck'
 cask 'pritunl'
 
+# cask 'Cyberduck'
 # brew 'duck'
 # cask 'ngrok'
 # mas 'WireGuard', id: 1451685025
@@ -97,7 +97,6 @@ cask 'appcleaner'
 cask 'caffeine'
 cask 'itsycal'
 cask 'numi'
-cask 'send-anywhere'
 cask 'rectangle'
 cask 'muzzle'
 cask 'joplin'
@@ -106,6 +105,7 @@ cask 'barrier'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'send-anywhere'
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
@@ -294,13 +294,13 @@ cask 'craftmanager'
 mas 'Pixelmator', id: 407963104
 cask 'sketch'
 cask 'sketchbook'
-cask 'xmind'
 mas 'LittleIpsum', id: 405772121
 cask 'iconset'
 cask 'wacom-tablet'
 cask 'xnconvert'
 cask 'figma'
 
+# cask 'xmind'
 
 
 
