@@ -69,6 +69,7 @@ brew 'cheat'
 brew 'mcfly'
 brew 'neofetch'
 brew 'tmux'
+brew 'asciinema'
 
 # brew 'zsh'
 # brew 'fzf'
