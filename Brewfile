@@ -105,6 +105,7 @@ cask 'barrier'
 mas 'Glance', id: 1513574319
 mas 'Pocket', id: 568494494
 
+# cask 'monitorcontrol'
 # cask 'send-anywhere'
 # cask 'balenaetcher'
 # cask 'unetbootin'
