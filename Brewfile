@@ -143,17 +143,18 @@ brew 'lynx'
 
 brew 'git'
 cask 'sourcetree'
+brew 'lazygit'
 cask 'github'
+cask 'docker'
+cask 'lazydocker'
 cask 'meld'
 cask 'sublime-text'
-cask 'poedit'
 cask 'visual-studio-code'
+cask 'poedit'
 
-# brew 'lazygit'
 # brew 'git-machete'  ## A TESTER
 # brew 'composer'
 # brew 'wp-cli'
-# cask 'docker'
 # cask 'gas-mask'
 
 
