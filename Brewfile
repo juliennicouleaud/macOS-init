@@ -71,7 +71,6 @@ brew 'neofetch'
 brew 'tmux'
 brew 'asciinema'
 
-# brew 'zsh'
 # brew 'fzf'
 # brew 'pandoc'
 
@@ -90,6 +89,8 @@ cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qladdict'
+cask 'glance'
+
 cask 'keka'
 cask 'adobe-acrobat-reader'
 cask 'alfred'
@@ -102,18 +103,14 @@ cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
 cask 'barrier'
-mas 'Glance', id: 1513574319
-mas 'Pocket', id: 568494494
 
-# cask 'monitorcontrol'
-# cask 'send-anywhere'
+# cask 'monitorcontrol'  ## A TESTER
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
-# cask 'transmission'
 # cask 'macdown'
 # cask 'nextcloud'
-#mas 'Trello', id: 1278508951
+# mas 'Trello', id: 1278508951
 
 
 
@@ -153,19 +150,11 @@ cask 'poedit'
 cask 'visual-studio-code'
 
 # brew 'lazygit'
+# brew 'git-machete'  ## A TESTER
 # brew 'composer'
 # brew 'wp-cli'
 # cask 'docker'
-# brew 'python3'
-# cask 'virtualbox'
-# cask 'virtualbox-extension-pack'
-# brew 'gandi.cli'
-# cask 'responsively'
-# brew 'ansible'
-# cask 'vagrant'
 # cask 'gas-mask'
-# cask 'pycharm-ce'
-# cask 'sequel-pro'
 
 
 
@@ -184,7 +173,7 @@ brew 'hugo'
 # brew 'graphicsmagick'
 # brew 'gsl'
 # brew 'exiftool'
-# brew 'imagemagick@6'
+# brew 'imagemagick'
 # mas 'Boxy SVG', id: 611658502
 # cask 'imageoptim'
 # brew 'jhead'
@@ -202,10 +191,7 @@ cask 'iina'
 # cask 'jubler'
 # cask 'handbrake'
 # cask 'soda-player'
-# cask 'java'
-# cask 'phocus'
 # cask 'vox'
-# cask 'xnconvert'
 # mas 'black-out', id: 1319884285
 # cask 'caption'
 # cask 'kap'
@@ -301,7 +287,6 @@ cask 'wacom-tablet'
 cask 'xnconvert'
 cask 'figma'
 
-# cask 'xmind'
 
 
 
