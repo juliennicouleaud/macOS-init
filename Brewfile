@@ -287,7 +287,7 @@ cask 'iconset'
 cask 'wacom-tablet'
 cask 'xnconvert'
 cask 'figma'
-
+cask 'xmind8'
 
 
 
