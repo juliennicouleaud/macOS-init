@@ -103,13 +103,13 @@ cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
 cask 'barrier'
+cask 'nextcloud'
 
 # cask 'monitorcontrol'  ## A TESTER
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
 # cask 'macdown'
-# cask 'nextcloud'
 # mas 'Trello', id: 1278508951
 
 
@@ -283,7 +283,7 @@ mas 'Pixelmator', id: 407963104
 cask 'sketch'
 cask 'sketchbook'
 mas 'LittleIpsum', id: 405772121
-cask 'iconset'
+# cask 'icon-shelf' -- A ajouter
 cask 'wacom-tablet'
 cask 'xnconvert'
 cask 'figma'
