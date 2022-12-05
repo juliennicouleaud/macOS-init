@@ -104,6 +104,11 @@ cask 'joplin'
 cask 'onyx'
 cask 'barrier'
 cask 'nextcloud'
+cask 'superkey'
+
+## A TESTER
+# brew 'rnr'
+## A TESTER
 
 # cask 'monitorcontrol'  ## A TESTER
 # cask 'balenaetcher'
