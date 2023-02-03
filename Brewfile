@@ -214,8 +214,8 @@ cask 'zoom'
 cask 'signal'
 cask 'rocket-chat'
 cask 'microsoft-teams'
+cask 'slack'
 
-# cask 'slack'
 # cask 'skype'
 # mas 'LimeChat', id: 414030210
 # cask 'jitsi-meet'
@@ -271,6 +271,7 @@ cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
 brew 'testssl'
+cask 'keeper-password-manager'
 
 # cask 'veracrypt'
 # cask 'macpass'
@@ -322,6 +323,7 @@ cask 'aerial'
 # Google Chrome
 # Google Chat
 # Printer Canon Pixma MP495 (scan & print) - https://www.canon.fr/support/consumer_products/products/fax__multifunctionals/inkjet/pixma_mp_series/pixma_mp495.html?type=drivers&language=fr&os=macos%2010.12%20(sierra)
+# Et Canon IJ Network Tool v.4.7.5 (Mac)
 # Microsoft Office
 # WORK : Printer Canon iR-ADV C2020L/2030L
 # WORK : Printer Brother MFC-9465CDN
