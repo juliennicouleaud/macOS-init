@@ -104,6 +104,8 @@ cask 'joplin'
 cask 'onyx'
 cask 'barrier'
 cask 'nextcloud'
+brew 'pygments'
+brew 'mdless'
 
 ## A TESTER
 # brew 'rnr'
