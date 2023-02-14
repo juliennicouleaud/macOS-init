@@ -102,21 +102,19 @@ cask 'rectangle'
 cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
-cask 'barrier'
 cask 'nextcloud'
 brew 'pygments'
 brew 'mdless'
 
-## A TESTER
-# brew 'rnr'
-## A TESTER
-
-# cask 'monitorcontrol'  ## A TESTER
+# cask 'barrier'
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
 # cask 'macdown'
 # mas 'Trello', id: 1278508951
+
+# brew 'rnr' ## A TESTER
+# cask 'monitorcontrol'  ## A TESTER
 
 
 
@@ -128,6 +126,7 @@ brew 'borgbackup'
 cask 'vorta'
 cask 'timemachineeditor'
 
+# brew 'restic' ## A TESTER
 # brew 'borgmatic'
 # brew 'mackup'
 
