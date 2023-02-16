@@ -1,12 +1,8 @@
-# Utiliser Homebrew bundle
-# https://github.com/Homebrew/homebrew-bundle
-
-
-
 # ###################################################################################################################################################
+# SETUP
+# ###################################################################################################################################################
+
 # Taps
-# ###################################################################################################################################################
-
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
@@ -14,23 +10,9 @@ tap 'homebrew/cask-drivers'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
 
-
-
-# ###################################################################################################################################################
-# Définir où placer les applications installées
-# ###################################################################################################################################################
-
-cask_args appdir: '/Applications'
-
-
-
-# ###################################################################################################################################################
-# Permettre l'installation d'applications de l'AppStore
-# SVN pour installer les polices
-# ###################################################################################################################################################
-
-brew 'mas'
-brew 'svn'
+cask_args appdir: '/Applications' # Définir où placer les applications installées
+brew 'mas' # Permettre l'installation d'applications de l'AppStore
+brew 'svn' # SVN pour installer les polices
 
 
 # ###################################################################################################################################################
@@ -70,6 +52,8 @@ brew 'mcfly'
 brew 'neofetch'
 brew 'tmux'
 brew 'asciinema'
+brew 'pygments'
+brew 'mdless'
 
 # brew 'fzf'
 # brew 'pandoc'
@@ -103,8 +87,6 @@ cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
 cask 'nextcloud'
-brew 'pygments'
-brew 'mdless'
 
 # cask 'barrier'
 # cask 'balenaetcher'
