@@ -136,9 +136,10 @@ cask 'docker'
 cask 'lazydocker'
 cask 'meld'
 cask 'sublime-text'
-cask 'visual-studio-code'
+cask 'vscodium'
 cask 'poedit'
 
+# cask 'visual-studio-code'
 # brew 'git-machete'  ## A TESTER
 # brew 'composer'
 # brew 'wp-cli'
@@ -213,11 +214,11 @@ cask 'slack'
 
 cask 'libreoffice'
 cask 'libreoffice-language-pack'
-mas 'Keynote', id: 409183694
-mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
-cask 'canon-ijscanner1'
 
+# mas 'Keynote', id: 409183694
+# mas 'Pages', id: 409201541
+# cask 'canon-ijscanner1'
 # cask 'deepl'
 # brew 'tesseract'
 # brew 'tesseract-lang'
@@ -267,15 +268,17 @@ cask 'keeper-password-manager'
 # ###################################################################################################################################################
 
 cask 'craftmanager'
-mas 'Pixelmator', id: 407963104
 cask 'sketch'
 cask 'sketchbook'
 mas 'LittleIpsum', id: 405772121
-# cask 'icon-shelf' -- A ajouter
+cask 'icon-shelf'
 cask 'wacom-tablet'
 cask 'xnconvert'
 cask 'figma'
-cask 'xmind8'
+cask 'krita'
+
+# cask 'xmind8'
+# mas 'Pixelmator', id: 407963104
 
 
 
