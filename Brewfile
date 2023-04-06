@@ -73,7 +73,7 @@ cask 'quicklook-json'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qladdict'
-cask 'glance'
+cask 'glance-chamburr'
 
 cask 'keka'
 cask 'adobe-acrobat-reader'
