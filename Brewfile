@@ -55,6 +55,7 @@ brew 'asciinema'
 brew 'pygments'
 brew 'mdless'
 
+# brew 'sad' # A tester pour les diff git
 # brew 'fzf'
 # brew 'pandoc'
 
