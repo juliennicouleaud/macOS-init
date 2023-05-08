@@ -55,8 +55,6 @@ brew 'asciinema'
 brew 'pygments'
 brew 'mdless'
 
-# brew 'sad' # A tester pour les diff git
-# brew 'fzf'
 # brew 'pandoc'
 
 
@@ -140,7 +138,8 @@ cask 'sublime-text'
 cask 'vscodium'
 cask 'poedit'
 
-# cask 'visual-studio-code'
+# brew 'fzf'
+# brew 'sad' # A tester pour les diff git
 # brew 'git-machete'  ## A TESTER
 # brew 'composer'
 # brew 'wp-cli'
@@ -219,7 +218,6 @@ mas 'Numbers', id: 409203825
 
 # mas 'Keynote', id: 409183694
 # mas 'Pages', id: 409201541
-# cask 'canon-ijscanner1'
 # cask 'deepl'
 # brew 'tesseract'
 # brew 'tesseract-lang'
@@ -268,15 +266,15 @@ cask 'keeper-password-manager'
 # Design
 # ###################################################################################################################################################
 
-cask 'craftmanager'
-cask 'sketch'
+cask 'figma'
+cask 'krita'
 cask 'sketchbook'
 mas 'LittleIpsum', id: 405772121
 cask 'icon-shelf'
 cask 'wacom-tablet'
 cask 'xnconvert'
-cask 'figma'
-cask 'krita'
+cask 'sketch'
+cask 'craftmanager'
 
 # cask 'xmind8'
 # mas 'Pixelmator', id: 407963104
@@ -308,9 +306,5 @@ cask 'aerial'
 # ###################################################################################################################################################
 
 # Google Chrome
-# Google Chat
-# Printer Canon Pixma MP495 (scan & print) - https://www.canon.fr/support/consumer_products/products/fax__multifunctionals/inkjet/pixma_mp_series/pixma_mp495.html?type=drivers&language=fr&os=macos%2010.12%20(sierra)
-# Et Canon IJ Network Tool v.4.7.5 (Mac)
-# Microsoft Office
 # WORK : Printer Canon iR-ADV C2020L/2030L
 # WORK : Printer Brother MFC-9465CDN

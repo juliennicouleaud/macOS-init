@@ -28,8 +28,8 @@ Le script fonctionnera largement sans votre intervention, sauf :
 
 ## Support
 
-- Version actuelle testée sur macOS Big Sur (version 11.6 - Architecture M1)
-- *Testé auparavant sur macOS High Sierra, Mojave, Catalina - Intel*
+- Version actuelle testée sur macOS Ventura (Architecture M1)
+- *Testé auparavant sur macOS Big Sur, High Sierra, Mojave, Catalina - Intel*
 
 ## Crédits
 
