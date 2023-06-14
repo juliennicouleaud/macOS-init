@@ -47,13 +47,19 @@ brew 'autojump'
 brew 'zsh-completions'
 brew 'htop'
 brew 'rclone'
-brew 'cheat'
 brew 'mcfly'
 brew 'neofetch'
 brew 'tmux'
 brew 'asciinema'
 brew 'pygments'
 brew 'mdless'
+
+brew 'rich'
+brew 'fd'
+brew 'tldr'
+brew 'duf'
+brew 'bat'
+brew 'diff-so-fancy'
 
 # brew 'pandoc'
 
@@ -136,8 +142,8 @@ cask 'lazydocker'
 cask 'meld'
 cask 'sublime-text'
 cask 'vscodium'
-cask 'poedit'
 
+# cask 'poedit'
 # brew 'fzf'
 # brew 'sad' # A tester pour les diff git
 # brew 'git-machete'  ## A TESTER
@@ -273,9 +279,9 @@ mas 'LittleIpsum', id: 405772121
 cask 'icon-shelf'
 cask 'wacom-tablet'
 cask 'xnconvert'
-cask 'sketch'
-cask 'craftmanager'
 
+# cask 'sketch'
+# cask 'craftmanager'
 # cask 'xmind8'
 # mas 'Pixelmator', id: 407963104
 
