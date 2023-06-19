@@ -6,7 +6,6 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
-tap 'homebrew/cask-drivers'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
 
