@@ -98,7 +98,6 @@ cask 'nextcloud'
 # cask 'the-unarchiver'
 # cask 'macdown'
 # mas 'Trello', id: 1278508951
-
 # brew 'rnr' ## A TESTER
 # cask 'monitorcontrol'  ## A TESTER
 
@@ -114,7 +113,7 @@ cask 'timemachineeditor'
 
 # brew 'restic' ## A TESTER
 # brew 'borgmatic'
-# brew 'mackup'
+
 
 
 # ###################################################################################################################################################
@@ -123,8 +122,6 @@ cask 'timemachineeditor'
 
 cask 'firefox'
 brew 'lynx'
-
-# cask 'firefox-developer-edition'
 
 
 
@@ -299,6 +296,7 @@ cask 'screaming-frog-seo-spider'
 # ###################################################################################################################################################
 
 cask 'aerial'
+cask 'battle-net'
 
 
 
