@@ -51,16 +51,13 @@ brew 'neofetch'
 brew 'tmux'
 brew 'asciinema'
 brew 'pygments'
-brew 'mdless'
 
-brew 'rich'
-brew 'fd'
-brew 'tldr'
-brew 'duf'
-brew 'bat'
-brew 'diff-so-fancy'
-
-# brew 'pandoc'
+brew 'rich' ## cat alternative
+brew 'bat' ## cat alternative
+brew 'fd' ## find alternative
+brew 'tldr' ## man alternative
+brew 'duf' ## df alternative
+brew 'diff-so-fancy' ## git diff alternative
 
 
 
