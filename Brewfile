@@ -233,6 +233,7 @@ cask 'font-source-sans-pro'
 cask 'font-roboto'
 cask 'font-open-sans'
 cask 'font-libre-baskerville'
+cask 'font-elstob'
 
 
 
