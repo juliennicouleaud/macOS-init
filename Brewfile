@@ -88,6 +88,7 @@ cask 'muzzle'
 cask 'joplin'
 cask 'onyx'
 cask 'nextcloud'
+cask 'modern-csv'
 
 # cask 'barrier'
 # cask 'balenaetcher'
@@ -198,6 +199,7 @@ cask 'signal'
 cask 'rocket-chat'
 cask 'microsoft-teams'
 cask 'slack'
+cask 'mattermost'
 
 # cask 'skype'
 # mas 'LimeChat', id: 414030210
