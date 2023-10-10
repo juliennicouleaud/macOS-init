@@ -86,9 +86,11 @@ cask 'numi'
 cask 'rectangle'
 cask 'muzzle'
 cask 'joplin'
+cask 'obsidian'
 cask 'onyx'
 cask 'nextcloud'
 cask 'modern-csv'
+
 
 # cask 'barrier'
 # cask 'balenaetcher'
@@ -194,13 +196,13 @@ cask 'iina'
 # ###################################################################################################################################################
 
 cask 'whatsapp'
-cask 'zoom'
 cask 'signal'
 cask 'rocket-chat'
 cask 'microsoft-teams'
 cask 'slack'
 cask 'mattermost'
 
+# cask 'zoom'
 # cask 'skype'
 # mas 'LimeChat', id: 414030210
 # cask 'jitsi-meet'
@@ -309,5 +311,6 @@ cask 'battle-net'
 # ###################################################################################################################################################
 
 # Google Chrome
+# Jungle Disk
 # WORK : Printer Canon iR-ADV C2020L/2030L
 # WORK : Printer Brother MFC-9465CDN
