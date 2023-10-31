@@ -178,6 +178,8 @@ brew 'hugo'
 
 cask 'spotify'
 cask 'iina'
+brew 'ffmpeg'
+brew 'gifsicle'
 
 # cask 'jubler'
 # cask 'handbrake'
@@ -198,7 +200,7 @@ cask 'iina'
 cask 'whatsapp'
 cask 'signal'
 cask 'rocket-chat'
-cask 'microsoft-teams'
+cask 'microsoft-teams-classic'
 cask 'slack'
 cask 'mattermost'
 
