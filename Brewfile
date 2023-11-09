@@ -42,7 +42,6 @@ cask 'pritunl'
 # ###################################################################################################################################################
 
 cask 'iterm2'
-brew 'autojump'
 brew 'zsh-completions'
 brew 'htop'
 brew 'rclone'
@@ -58,6 +57,8 @@ brew 'fd' ## find alternative
 brew 'tldr' ## man alternative
 brew 'duf' ## df alternative
 brew 'diff-so-fancy' ## git diff alternative
+
+# brew 'autojump'
 
 
 
@@ -259,9 +260,9 @@ cask 'sim-daltonism'
 cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
-brew 'testssl'
 cask 'keeper-password-manager'
 
+# brew 'testssl'
 # cask 'veracrypt'
 # cask 'macpass'
 # brew 'gpg2'
