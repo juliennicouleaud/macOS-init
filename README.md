@@ -1,3 +1,5 @@
+# macOS-Init
+
 Ce script permet d'automatiser l'installation et la mise à jour via [Homebrew](https://brew.sh "Homebrew — The missing package manager for macOS") des logiciels que j'utilise habituellement sur Mac.
 
 ## Prérequis
@@ -18,13 +20,14 @@ Ce script permet d'automatiser l'installation et la mise à jour via [Homebrew](
 - Ou lancez directement son exécution :
 
 ```shell
-$ curl -sfL https://raw.githubusercontent.com/juliennicouleaud/macOS-init/master/run.sh | sh
+curl -sfL https://raw.githubusercontent.com/juliennicouleaud/macOS-init/master/run.sh | sh
 ```
 
 Le script fonctionnera largement sans votre intervention, sauf :
-  - pour valider l'installation de Homebrew
-  - pour saisir le mot de passe administrateur pour Homebrew
-  - pour certains logiciels qui nécessitent un accès admin
+
+- pour valider l'installation de Homebrew
+- pour saisir le mot de passe administrateur pour Homebrew
+- pour certains logiciels qui nécessitent un accès admin
 
 ## Support
 
