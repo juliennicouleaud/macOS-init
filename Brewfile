@@ -92,6 +92,7 @@ cask 'obsidian'
 cask 'onyx'
 cask 'nextcloud'
 cask 'modern-csv'
+cask 'monitorcontrol'
 
 
 # cask 'barrier'
@@ -100,8 +101,7 @@ cask 'modern-csv'
 # cask 'the-unarchiver'
 # cask 'macdown'
 # mas 'Trello', id: 1278508951
-# brew 'rnr' ## A TESTER
-# cask 'monitorcontrol'  ## A TESTER
+# brew 'rnr' ## A TESTER - Batch rename
 
 
 
