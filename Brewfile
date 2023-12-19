@@ -44,7 +44,6 @@ cask 'pritunl'
 cask 'iterm2'
 brew 'zsh-completions'
 brew 'htop'
-brew 'rclone'
 brew 'mcfly'
 brew 'neofetch'
 brew 'tmux'
@@ -59,6 +58,7 @@ brew 'tldr' ## man alternative
 brew 'duf' ## df alternative
 brew 'diff-so-fancy' ## git diff alternative
 
+# brew 'rclone'
 # brew 'autojump'
 
 
@@ -84,9 +84,7 @@ cask 'alfred'
 cask 'appcleaner'
 cask 'caffeine'
 cask 'itsycal'
-cask 'numi'
 cask 'rectangle'
-cask 'muzzle'
 cask 'joplin'
 cask 'obsidian'
 cask 'onyx'
@@ -95,6 +93,8 @@ cask 'modern-csv'
 cask 'monitorcontrol'
 
 
+# cask 'numi'
+# cask 'muzzle'
 # cask 'barrier'
 # cask 'balenaetcher'
 # cask 'unetbootin'
@@ -109,10 +109,10 @@ cask 'monitorcontrol'
 # Outils de backup et synchro
 # ###################################################################################################################################################
 
-brew 'borgbackup'
-cask 'vorta'
 cask 'timemachineeditor'
 
+# brew 'borgbackup'
+# cask 'vorta'
 # brew 'restic' ## A TESTER
 # brew 'borgmatic'
 
@@ -123,7 +123,8 @@ cask 'timemachineeditor'
 # ###################################################################################################################################################
 
 cask 'firefox'
-brew 'lynx'
+
+# brew 'lynx'
 
 
 
@@ -132,15 +133,15 @@ brew 'lynx'
 # ###################################################################################################################################################
 
 brew 'git'
-cask 'sourcetree'
 brew 'lazygit'
 cask 'github'
-cask 'docker'
-cask 'lazydocker'
-cask 'meld'
 cask 'sublime-text'
 cask 'vscodium'
 
+# cask 'meld'
+# cask 'sourcetree'
+# cask 'docker'
+# cask 'lazydocker'
 # cask 'poedit'
 # brew 'fzf'
 # brew 'sad' # A tester pour les diff git
@@ -179,10 +180,11 @@ brew 'hugo'
 # ###################################################################################################################################################
 
 cask 'spotify'
-cask 'iina'
+cask 'vlc'
 brew 'ffmpeg'
 brew 'gifsicle'
 
+# cask 'iina'
 # cask 'jubler'
 # cask 'handbrake'
 # cask 'soda-player'
@@ -258,11 +260,11 @@ cask 'sim-daltonism'
 # Securite
 # ###################################################################################################################################################
 
-cask 'private-internet-access'
 cask 'bitwarden'
 cask 'lulu'
 cask 'keeper-password-manager'
 
+# cask 'private-internet-access'
 # brew 'testssl'
 # cask 'veracrypt'
 # cask 'macpass'
@@ -276,14 +278,10 @@ cask 'keeper-password-manager'
 
 cask 'figma'
 cask 'krita'
-cask 'sketchbook'
 mas 'LittleIpsum', id: 405772121
 cask 'icon-shelf'
 cask 'xnconvert'
 
-# cask 'sketch'
-# cask 'craftmanager'
-# cask 'xmind8'
 # mas 'Pixelmator', id: 407963104
 
 
@@ -304,7 +302,6 @@ cask 'aerial'
 cask 'battle-net'
 
 cask 'wacom-tablet'
-cask 'logi-options-plus'
 
 
 # ###################################################################################################################################################
