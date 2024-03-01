@@ -50,6 +50,7 @@ brew 'tmux'
 brew 'asciinema'
 brew 'pygments'
 brew 'numbat'
+brew 'neovim'
 
 brew 'rich' ## cat alternative
 brew 'bat' ## cat alternative
