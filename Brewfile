@@ -303,6 +303,7 @@ cask 'screaming-frog-seo-spider'
 
 cask 'aerial'
 cask 'battle-net'
+cask 'senabluetoothdevicemanager'
 
 cask 'wacom-tablet'
 
