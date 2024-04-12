@@ -51,6 +51,7 @@ brew 'asciinema'
 brew 'pygments'
 brew 'numbat'
 brew 'neovim'
+brew 'ranger'
 
 brew 'rich' ## cat alternative
 brew 'bat' ## cat alternative
