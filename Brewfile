@@ -52,6 +52,7 @@ brew 'pygments'
 brew 'numbat'
 brew 'neovim'
 brew 'ranger'
+# brew 'superfile' ## launch with spf
 
 brew 'rich' ## cat alternative
 brew 'bat' ## cat alternative
@@ -206,7 +207,7 @@ brew 'gifsicle'
 cask 'whatsapp'
 cask 'signal'
 cask 'rocket-chat'
-cask 'microsoft-teams-classic'
+cask 'microsoft-teams@classic'
 cask 'slack'
 cask 'mattermost'
 
