@@ -3,11 +3,13 @@
 # ###################################################################################################################################################
 
 # Taps
+tap 'homebrew/core'
+tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
+# tap 'homebrew/cask-versions'
 
 cask_args appdir: '/Applications' # Définir où placer les applications installées
 brew 'mas' # Permettre l'installation d'applications de l'AppStore
