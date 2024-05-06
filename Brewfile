@@ -53,6 +53,7 @@ brew 'pygments'
 brew 'numbat'
 brew 'neovim'
 brew 'ranger'
+brew 'fastfetch'
 # brew 'superfile' ## launch with spf
 
 brew 'rich' ## cat alternative
