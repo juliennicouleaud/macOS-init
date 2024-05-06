@@ -62,6 +62,7 @@ brew 'fd' ## find alternative
 brew 'tldr' ## man alternative
 brew 'duf' ## df alternative
 brew 'diff-so-fancy' ## git diff alternative
+brew 'logdy' # add | logdy after tail command
 
 # brew 'rclone'
 # brew 'autojump'
