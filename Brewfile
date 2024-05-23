@@ -9,6 +9,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
+
 # tap 'homebrew/cask-versions'
 
 cask_args appdir: '/Applications' # Définir où placer les applications installées
@@ -49,12 +50,11 @@ brew 'htop'
 brew 'mcfly'
 brew 'tmux'
 brew 'asciinema'
+brew 'agg'
 brew 'pygments'
-brew 'numbat'
 brew 'neovim'
 brew 'ranger'
 brew 'fastfetch'
-# brew 'superfile' ## launch with spf
 
 brew 'rich' ## cat alternative
 brew 'bat' ## cat alternative
@@ -65,6 +65,8 @@ brew 'diff-so-fancy' ## git diff alternative
 brew 'logdy' # add | logdy after tail command
 
 # brew 'rclone'
+# brew 'numbat'
+# brew 'superfile' ## launch with spf
 # brew 'autojump'
 
 
@@ -74,14 +76,7 @@ brew 'logdy' # add | logdy after tail command
 # ###################################################################################################################################################
 
 # Quicklook for files without extension (README, INSTALL, Rakefile, Makefile…)
-cask 'qlstephen'
 cask 'webpquicklook'
-cask 'qlcommonmark'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'qladdict'
 cask 'glance-chamburr'
 
 cask 'keka'
@@ -95,10 +90,10 @@ cask 'joplin'
 cask 'obsidian'
 cask 'onyx'
 cask 'nextcloud'
-cask 'modern-csv'
 cask 'monitorcontrol'
 
 
+# cask 'modern-csv'
 # cask 'numi'
 # cask 'muzzle'
 # cask 'barrier'
@@ -310,7 +305,6 @@ cask 'screaming-frog-seo-spider'
 cask 'aerial'
 cask 'battle-net'
 cask 'senabluetoothdevicemanager'
-
 cask 'wacom-tablet'
 
 
