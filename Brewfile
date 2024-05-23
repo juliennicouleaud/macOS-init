@@ -210,10 +210,11 @@ brew 'gifsicle'
 cask 'whatsapp'
 cask 'signal'
 cask 'rocket-chat'
-cask 'microsoft-teams@classic'
+cask 'microsoft-teams'
 cask 'slack'
 cask 'mattermost'
 
+# cask 'microsoft-teams@classic'
 # cask 'zoom'
 # cask 'skype'
 # mas 'LimeChat', id: 414030210
