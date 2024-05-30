@@ -6,10 +6,10 @@
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
 
+# tap 'homebrew/cask-fonts'
 # tap 'homebrew/cask-versions'
 
 cask_args appdir: '/Applications' # Définir où placer les applications installées
@@ -306,6 +306,9 @@ cask 'aerial'
 cask 'battle-net'
 cask 'senabluetoothdevicemanager'
 cask 'wacom-tablet'
+
+# cask 'mac-mouse-fix@2'
+
 
 
 # ###################################################################################################################################################
