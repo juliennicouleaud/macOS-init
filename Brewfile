@@ -29,6 +29,7 @@ brew 'curl'
 brew 'openvpn'
 cask 'pritunl'
 
+# cask 'caido' ## web security auditing tool
 # cask 'Cyberduck'
 # brew 'duck'
 # cask 'ngrok'
