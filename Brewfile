@@ -64,6 +64,7 @@ brew 'tldr' ## man alternative
 brew 'duf' ## df alternative
 brew 'diff-so-fancy' ## git diff alternative
 
+# brew 'vimtutor-sequel'
 # brew 'logdy' # add | logdy after tail command
 # brew 'rclone'
 # brew 'numbat'
@@ -95,6 +96,7 @@ cask 'monitorcontrol'
 # brew 'batt' ## A TESTER - Battery management
 
 
+# cask 'deskpad'
 # cask 'modern-csv'
 # cask 'numi'
 # cask 'muzzle'
@@ -208,9 +210,9 @@ cask 'whatsapp'
 cask 'signal'
 cask 'rocket-chat'
 cask 'microsoft-teams'
-cask 'slack'
 cask 'mattermost'
 
+# cask 'slack'
 # cask 'microsoft-teams@classic'
 # cask 'zoom'
 # cask 'skype'
@@ -269,8 +271,9 @@ cask 'sim-daltonism'
 cask 'bitwarden'
 cask 'lulu'
 cask 'keeper-password-manager'
-cask 'protonvpn'
+cask 'private-internet-access'
 
+# cask 'protonvpn'
 # brew 'testssl'
 # cask 'veracrypt'
 # cask 'macpass'
