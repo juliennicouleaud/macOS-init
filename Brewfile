@@ -93,9 +93,11 @@ cask 'obsidian'
 cask 'onyx'
 cask 'nextcloud'
 cask 'monitorcontrol'
+cask 'localsend'
+brew 'dug' # dns propagation cli
+
+# brew 'pipet' # web scraper cli
 # brew 'batt' ## A TESTER - Battery management
-
-
 # cask 'deskpad'
 # cask 'modern-csv'
 # cask 'numi'
