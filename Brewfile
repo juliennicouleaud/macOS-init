@@ -95,6 +95,7 @@ cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
 brew 'dug' # dns propagation cli
+brew 'dasel' # manipulate json files
 
 # brew 'pipet' # web scraper cli
 # brew 'batt' ## A TESTER - Battery management
