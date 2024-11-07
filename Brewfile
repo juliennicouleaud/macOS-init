@@ -22,6 +22,7 @@ brew 'svn' # SVN pour installer les polices
 # ###################################################################################################################################################
 
 brew 'openssh'
+brew 'boring' ## SSH tunnel manager
 brew 'ssh-copy-id'
 brew 'openssl'
 brew 'wget'
@@ -29,15 +30,13 @@ brew 'curl'
 brew 'openvpn'
 cask 'pritunl'
 
-# cask 'caido' ## web security auditing tool
 # cask 'Cyberduck'
 # brew 'duck'
 # cask 'ngrok'
 # mas 'WireGuard', id: 1451685025
 # brew 'rsync'
-# cask 'airpass'
-# brew 'stormssh'
-# brew 'stormssh-completion'
+# cask 'airpass' # chaneg macc address
+# brew 'rclone'
 
 
 
@@ -50,23 +49,23 @@ brew 'zsh-completions'
 brew 'htop'
 brew 'mcfly'
 brew 'tmux'
-brew 'asciinema'
-brew 'agg'
 brew 'pygments'
 brew 'neovim'
 brew 'ranger'
 brew 'fastfetch'
+brew 'duf'
+brew 'forgit'
+brew 'tldr'
+brew 'bat'
+brew 'diff-so-fancy'
 
-brew 'rich' ## cat alternative
-brew 'bat' ## cat alternative
 brew 'fd' ## find alternative
-brew 'tldr' ## man alternative
-brew 'duf' ## df alternative
-brew 'diff-so-fancy' ## git diff alternative
+brew 'rich' ## cat alternative
 
+# brew 'asciinema'
+# brew 'agg'
 # brew 'vimtutor-sequel'
 # brew 'logdy' # add | logdy after tail command
-# brew 'rclone'
 # brew 'numbat'
 # brew 'superfile' ## launch with spf
 # brew 'autojump'
@@ -150,13 +149,8 @@ cask 'vscodium'
 # cask 'sourcetree'
 # cask 'docker'
 # cask 'lazydocker'
-# cask 'poedit'
 # brew 'fzf'
-# brew 'sad' # A tester pour les diff git
 # brew 'git-machete'  ## A TESTER
-# brew 'composer'
-# brew 'wp-cli'
-# cask 'gas-mask'
 
 
 
@@ -164,7 +158,8 @@ cask 'vscodium'
 # Static generators
 # ###################################################################################################################################################
 
-brew 'hugo'
+# brew 'hugo'
+# brew 'eleventy'
 
 
 
