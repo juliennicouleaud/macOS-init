@@ -52,6 +52,7 @@ brew 'tmux'
 brew 'pygments'
 brew 'neovim'
 brew 'ranger'
+brew 'superfile' # launch with spf
 brew 'fastfetch'
 brew 'duf'
 brew 'forgit'
@@ -67,7 +68,6 @@ brew 'rich' ## cat alternative
 # brew 'vimtutor-sequel'
 # brew 'logdy' # add | logdy after tail command
 # brew 'numbat'
-# brew 'superfile' ## launch with spf
 # brew 'autojump'
 
 
@@ -97,18 +97,16 @@ brew 'dug' # dns propagation cli
 brew 'dasel' # manipulate json files
 
 # brew 'pipet' # web scraper cli
-# brew 'batt' ## A TESTER - Battery management
+# brew 'batt' # Battery management
+# brew 'rnr' # - Batch rename
 # cask 'deskpad'
 # cask 'modern-csv'
-# cask 'numi'
 # cask 'muzzle'
 # cask 'barrier'
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
-# cask 'macdown'
 # mas 'Trello', id: 1278508951
-# brew 'rnr' ## A TESTER - Batch rename
 
 
 
@@ -116,8 +114,7 @@ brew 'dasel' # manipulate json files
 # Outils de backup et synchro
 # ###################################################################################################################################################
 
-cask 'timemachineeditor'
-
+# cask 'timemachineeditor'
 # brew 'borgbackup'
 # cask 'vorta'
 # brew 'restic' ## A TESTER
