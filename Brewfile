@@ -30,6 +30,7 @@ brew 'curl'
 brew 'openvpn'
 cask 'pritunl'
 
+# brew 'havn' # port scanner
 # cask 'Cyberduck'
 # brew 'duck'
 # cask 'ngrok'
