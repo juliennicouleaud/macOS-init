@@ -60,6 +60,8 @@ brew 'forgit'
 brew 'tldr'
 brew 'bat'
 brew 'diff-so-fancy'
+brew 'hgrep'
+brew 'rink'
 
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
@@ -226,6 +228,7 @@ cask 'mattermost'
 cask 'libreoffice'
 cask 'libreoffice-language-pack'
 mas 'Numbers', id: 409203825
+brew 'bagels'
 
 # mas 'Keynote', id: 409183694
 # mas 'Pages', id: 409201541
