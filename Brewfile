@@ -57,7 +57,7 @@ brew 'superfile' # launch with spf
 brew 'fastfetch'
 brew 'duf'
 brew 'forgit'
-brew 'tldr'
+brew 'tlrc'
 brew 'bat'
 brew 'diff-so-fancy'
 brew 'hgrep'
