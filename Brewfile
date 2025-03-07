@@ -98,7 +98,10 @@ cask 'monitorcontrol'
 cask 'localsend'
 brew 'dug' # dns propagation cli
 brew 'dasel' # manipulate json files
+brew 'lazyjournal'
+brew 'gotz'
 
+# cask 'pairpods'
 # brew 'pipet' # web scraper cli
 # brew 'batt' # Battery management
 # brew 'rnr' # - Batch rename
