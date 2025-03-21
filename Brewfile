@@ -3,10 +3,10 @@
 # ###################################################################################################################################################
 
 # Taps
-tap 'homebrew/bundle'
 tap 'colindean/fonts-nonfree'
 tap 'cantino/mcfly'
 
+# tap 'homebrew/bundle'
 # tap 'homebrew/core'
 # tap 'homebrew/cask'
 # tap 'homebrew/cask-fonts'
