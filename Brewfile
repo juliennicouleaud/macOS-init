@@ -4,8 +4,8 @@
 
 # Taps
 tap 'colindean/fonts-nonfree'
-tap 'cantino/mcfly'
 
+# tap 'cantino/mcfly'
 # tap 'homebrew/bundle'
 # tap 'homebrew/core'
 # tap 'homebrew/cask'
@@ -48,7 +48,6 @@ cask 'pritunl'
 cask 'iterm2'
 brew 'zsh-completions'
 brew 'htop'
-brew 'mcfly'
 brew 'tmux'
 brew 'pygments'
 brew 'neovim'
@@ -66,6 +65,7 @@ brew 'rink'
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
 
+# brew 'mcfly'
 # brew 'asciinema'
 # brew 'agg'
 # brew 'vimtutor-sequel'
