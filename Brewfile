@@ -36,7 +36,7 @@ cask 'pritunl'
 # cask 'ngrok'
 # mas 'WireGuard', id: 1451685025
 # brew 'rsync'
-# cask 'airpass' # chaneg macc address
+# cask 'airpass' # change mac address
 # brew 'rclone'
 
 
