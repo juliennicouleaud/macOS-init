@@ -147,10 +147,13 @@ brew 'lazygit'
 cask 'github'
 cask 'sublime-text'
 cask 'vscodium'
+brew 'orbstack'
+brew 'docker'
+brew 'ddev/ddev/ddev'
+brew 'nss' ## required for mkcert --install
 
 # cask 'meld'
 # cask 'sourcetree'
-# cask 'docker'
 # cask 'lazydocker'
 # brew 'fzf'
 # brew 'git-machete'  ## A TESTER
