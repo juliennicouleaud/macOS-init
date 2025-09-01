@@ -100,6 +100,9 @@ brew 'dug' # dns propagation cli
 brew 'dasel' # manipulate json files
 brew 'lazyjournal'
 brew 'gotz'
+brew 'tldx'
+brew 'doxx' # a tester
+brew 'mac-cleanup-py' # a tester
 
 # cask 'pairpods'
 # brew 'pipet' # web scraper cli
@@ -151,6 +154,7 @@ brew 'orbstack'
 brew 'docker'
 brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
+brew 'htmlhint'
 
 # cask 'meld'
 # cask 'sourcetree'
