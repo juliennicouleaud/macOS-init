@@ -61,6 +61,13 @@ brew 'bat'
 brew 'diff-so-fancy'
 brew 'hgrep'
 brew 'rink'
+brew 'dug' # dns propagation cli
+brew 'dasel' # manipulate json files
+brew 'lazyjournal'
+brew 'gotz' # timezones
+brew 'tldx' # check domain name availability
+brew 'doxx' # a tester
+brew 'mac-cleanup-py' # a tester
 
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
@@ -96,13 +103,6 @@ cask 'onyx'
 cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
-brew 'dug' # dns propagation cli
-brew 'dasel' # manipulate json files
-brew 'lazyjournal'
-brew 'gotz'
-brew 'tldx'
-brew 'doxx' # a tester
-brew 'mac-cleanup-py' # a tester
 
 # cask 'pairpods'
 # brew 'pipet' # web scraper cli
