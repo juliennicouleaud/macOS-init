@@ -319,6 +319,7 @@ cask 'screaming-frog-seo-spider'
 # cask 'jan'
 # brew 'ollama'
 # cask 'ollama'
+cask 'epicenter-whispering'
 
 
 
