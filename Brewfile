@@ -108,7 +108,6 @@ cask 'localsend'
 # brew 'pipet' # web scraper cli
 # brew 'batt' # Battery management
 # brew 'rnr' # - Batch rename
-# cask 'deskpad'
 # cask 'modern-csv'
 # cask 'muzzle'
 # cask 'barrier'
@@ -196,6 +195,7 @@ cask 'spotify'
 cask 'vlc'
 brew 'ffmpeg'
 brew 'gifsicle'
+brew 'obs'
 
 # cask 'iina'
 # cask 'jubler'
