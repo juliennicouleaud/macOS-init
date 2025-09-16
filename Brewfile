@@ -316,7 +316,7 @@ cask 'screaming-frog-seo-spider'
 # IA
 # ###################################################################################################################################################
 
-# cask 'jan'
+cask 'jan'
 # brew 'ollama'
 # cask 'ollama'
 cask 'epicenter-whispering'
