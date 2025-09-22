@@ -87,7 +87,6 @@ brew 'rich' ## cat alternative
 # ###################################################################################################################################################
 
 # Quicklook for files without extension (README, INSTALL, Rakefile, Makefile…)
-cask 'webpquicklook'
 cask 'glance-chamburr'
 
 cask 'keka'
