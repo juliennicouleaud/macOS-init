@@ -29,6 +29,7 @@ brew 'wget'
 brew 'curl'
 brew 'openvpn'
 cask 'pritunl'
+cask 'tunnelblick'
 
 # brew 'havn' # port scanner
 # cask 'Cyberduck'
@@ -102,6 +103,8 @@ cask 'onyx'
 cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
+
+brew 'goclone'
 
 # cask 'pairpods'
 # brew 'pipet' # web scraper cli
