@@ -105,6 +105,7 @@ cask 'onyx'
 cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
+cask 'smoothcsv'
 
 brew 'goclone'
 
