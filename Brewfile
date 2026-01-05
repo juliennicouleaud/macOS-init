@@ -150,8 +150,8 @@ cask 'firefox'
 # ###################################################################################################################################################
 
 brew 'git'
-brew 'lazygit'
 cask 'github'
+cask 'sourcegit'
 cask 'sublime-text'
 cask 'vscodium'
 brew 'orbstack'
@@ -160,6 +160,7 @@ brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
 brew 'htmlhint'
 
+# brew 'lazygit'
 # cask 'meld'
 # cask 'sourcetree'
 # cask 'lazydocker'
