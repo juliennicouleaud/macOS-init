@@ -154,12 +154,13 @@ cask 'github'
 cask 'sourcegit'
 cask 'sublime-text'
 cask 'vscodium'
-brew 'orbstack'
 brew 'docker'
 brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
-brew 'htmlhint'
+brew 'nvm'
 
+# brew 'htmlhint'
+# brew 'orbstack'
 # brew 'lazygit'
 # cask 'meld'
 # cask 'sourcetree'
@@ -322,7 +323,7 @@ cask 'screaming-frog-seo-spider'
 # IA
 # ###################################################################################################################################################
 
-cask 'jan'
+# cask 'jan'
 # brew 'ollama'
 # cask 'ollama'
 
