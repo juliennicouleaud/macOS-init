@@ -158,7 +158,7 @@ brew 'docker'
 brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
 brew 'nvm'
-cask 'rustranger'
+cask 'rustrover'
 cask 'openboard'
 
 # brew 'htmlhint'
