@@ -158,6 +158,8 @@ brew 'docker'
 brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
 brew 'nvm'
+cask 'rustranger'
+cask 'openboard'
 
 # brew 'htmlhint'
 # brew 'orbstack'
