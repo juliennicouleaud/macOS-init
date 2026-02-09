@@ -205,6 +205,7 @@ cask 'vlc'
 brew 'ffmpeg'
 brew 'gifsicle'
 brew 'obs'
+brew 'yap'
 
 # cask 'iina'
 # cask 'jubler'
