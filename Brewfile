@@ -158,9 +158,11 @@ brew 'docker'
 brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
 brew 'nvm'
-cask 'rustrover'
 cask 'openboard'
+cask 'claude'
+cask 'claude-code'
 
+# cask 'rustrover'
 # brew 'htmlhint'
 # brew 'orbstack'
 # brew 'lazygit'
@@ -329,11 +331,10 @@ cask 'screaming-frog-seo-spider'
 # IA
 # ###################################################################################################################################################
 
-# cask 'jan'
-# brew 'ollama'
-# cask 'ollama'
-
+cask 'ollama-app'
 cask 'epicenter-whispering'
+
+# cask 'jan'
 # cask 'handy' # alternative for the above
 
 
