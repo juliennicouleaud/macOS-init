@@ -89,9 +89,6 @@ brew 'rich' ## cat alternative
 # Utilitaires
 # ###################################################################################################################################################
 
-# Quicklook for files without extension (README, INSTALL, Rakefile, Makefile…)
-cask 'glance-chamburr'
-
 cask 'keka'
 cask 'adobe-acrobat-reader'
 cask 'alfred'
