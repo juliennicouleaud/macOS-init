@@ -320,7 +320,7 @@ cask 'xnconvert'
 # SEO
 # ###################################################################################################################################################
 
-cask 'screaming-frog-seo-spider'
+# cask 'screaming-frog-seo-spider'
 
 
 
@@ -329,9 +329,9 @@ cask 'screaming-frog-seo-spider'
 # ###################################################################################################################################################
 
 cask 'ollama-app'
-cask 'epicenter-whispering'
 
 # cask 'jan'
+# cask 'epicenter-whispering'
 # cask 'handy' # alternative for the above
 
 
