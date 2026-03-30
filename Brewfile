@@ -52,7 +52,6 @@ brew 'htop'
 brew 'tmux'
 brew 'pygments'
 brew 'neovim'
-brew 'ranger'
 brew 'superfile' # launch with spf
 brew 'fastfetch'
 brew 'duf'
@@ -75,6 +74,7 @@ brew 'mcat' # fancy cat
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
 
+# brew 'ranger'
 # brew 'mcfly'
 # brew 'asciinema'
 # brew 'agg'
