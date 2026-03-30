@@ -68,12 +68,12 @@ brew 'gotz' # timezones
 brew 'tldx' # check domain name availability
 brew 'doxx' # a tester - afficher docx dans terminal
 brew 'xleak' # a tester - afficher xlsx dans terminal
-brew 'mac-cleanup-py' # a tester
 brew 'mcat' # fancy cat
 
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
 
+# brew 'mac-cleanup-py' # a tester
 # brew 'ranger'
 # brew 'mcfly'
 # brew 'asciinema'
