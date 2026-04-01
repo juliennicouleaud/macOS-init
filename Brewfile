@@ -307,11 +307,11 @@ cask 'private-internet-access'
 # ###################################################################################################################################################
 
 cask 'figma'
-cask 'krita'
 mas 'LittleIpsum', id: 405772121
 cask 'icon-shelf'
 cask 'xnconvert'
 
+# cask 'krita'
 # mas 'Pixelmator', id: 407963104
 
 
