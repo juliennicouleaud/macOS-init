@@ -69,7 +69,6 @@ brew 'tldx' # check domain name availability
 brew 'doxx' # a tester - afficher docx dans terminal
 brew 'xleak' # a tester - afficher xlsx dans terminal
 brew 'mcat' # fancy cat
-
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
 
@@ -98,15 +97,14 @@ cask 'itsycal'
 cask 'rectangle'
 cask 'joplin'
 cask 'obsidian'
-cask 'onyx'
 cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
 cask 'smoothcsv'
-
 brew 'goclone'
 
-# cask 'pairpods'
+# cask 'onyx'
+# cask 'pairpods' # share bluetooth audio with multiple devices
 # brew 'pipet' # web scraper cli
 # brew 'batt' # Battery management
 # brew 'rnr' # - Batch rename
@@ -116,7 +114,6 @@ brew 'goclone'
 # cask 'balenaetcher'
 # cask 'unetbootin'
 # cask 'the-unarchiver'
-# mas 'Trello', id: 1278508951
 
 
 
@@ -152,13 +149,13 @@ cask 'sourcegit'
 cask 'sublime-text'
 cask 'vscodium'
 brew 'docker'
-brew 'ddev/ddev/ddev'
 brew 'nss' ## required for mkcert --install
 brew 'nvm'
 cask 'openboard'
 cask 'claude'
 cask 'claude-code'
 
+# brew 'ddev/ddev/ddev'
 # cask 'rustrover'
 # brew 'htmlhint'
 # brew 'orbstack'
@@ -249,9 +246,9 @@ cask 'microsoft-teams'
 
 cask 'libreoffice'
 cask 'libreoffice-language-pack'
-mas 'Numbers', id: 409203825
 brew 'bagels'
 
+# mas 'Numbers', id: 409203825
 # mas 'Keynote', id: 409183694
 # mas 'Pages', id: 409201541
 # cask 'deepl'
@@ -341,11 +338,11 @@ cask 'ollama-app'
 # MISC & DRIVERS
 # ###################################################################################################################################################
 
-cask 'aerial'
 cask 'battle-net'
 cask 'senabluetoothdevicemanager'
 cask 'wacom-tablet'
 
+# cask 'aerial'
 # cask 'mac-mouse-fix@2'
 
 
