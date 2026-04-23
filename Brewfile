@@ -103,6 +103,7 @@ cask 'localsend'
 cask 'smoothcsv'
 brew 'goclone'
 
+# cask 'cling'
 # cask 'onyx'
 # cask 'pairpods' # share bluetooth audio with multiple devices
 # brew 'pipet' # web scraper cli
