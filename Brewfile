@@ -155,6 +155,7 @@ brew 'nvm'
 cask 'openboard'
 cask 'claude'
 cask 'claude-code'
+cask 'claudebar'
 
 # brew 'ddev/ddev/ddev'
 # cask 'rustrover'
