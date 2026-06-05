@@ -157,7 +157,6 @@ cask 'claude'
 cask 'claude-code'
 cask 'claudebar'
 
-# brew 'ddev/ddev/ddev'
 # cask 'rustrover'
 # brew 'htmlhint'
 # brew 'orbstack'
@@ -340,10 +339,10 @@ cask 'ollama-app'
 # MISC & DRIVERS
 # ###################################################################################################################################################
 
-cask 'battle-net'
 cask 'senabluetoothdevicemanager'
 cask 'wacom-tablet'
 
+# cask 'battle-net'
 # cask 'aerial'
 # cask 'mac-mouse-fix@2'
 
