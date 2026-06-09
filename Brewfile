@@ -72,6 +72,7 @@ brew 'mcat' # fancy cat
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
 
+# brew 'ec' # easy conflict a tester
 # brew 'mac-cleanup-py' # a tester
 # brew 'ranger'
 # brew 'mcfly'
@@ -327,6 +328,7 @@ cask 'xnconvert'
 # ###################################################################################################################################################
 
 cask 'ollama-app'
+cask 'buzz'
 
 # cask 'jan'
 # cask 'epicenter-whispering'
