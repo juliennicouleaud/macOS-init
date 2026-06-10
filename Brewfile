@@ -328,9 +328,9 @@ cask 'xnconvert'
 # ###################################################################################################################################################
 
 cask 'ollama-app'
-cask 'buzz'
 
 # cask 'jan'
+# cask 'buzz' # a tester idem whispering
 # cask 'epicenter-whispering'
 # cask 'handy' # alternative for the above
 
