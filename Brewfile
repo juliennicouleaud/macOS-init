@@ -71,6 +71,7 @@ brew 'xleak' # a tester - afficher xlsx dans terminal
 brew 'mcat' # fancy cat
 brew 'fd' ## find alternative
 brew 'rich' ## cat alternative
+brew 'md-tui' ## markdown TUI viewer
 
 # brew 'ec' # easy conflict a tester
 # brew 'mac-cleanup-py' # a tester
