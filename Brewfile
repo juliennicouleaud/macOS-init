@@ -164,6 +164,10 @@ brew 'splitrail'
 brew 'mistral-vibe'
 cask 'codex'
 
+### Pour installer le connecteur MCP Google Analytics
+brew 'pipx'
+cask "google-cloud-sdk"
+
 
 # cask 'docker-desktop'
 # cask 'claudebar'
