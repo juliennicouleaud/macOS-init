@@ -31,8 +31,8 @@ Le script fonctionnera largement sans votre intervention, sauf :
 
 ## Support
 
-- Version actuelle testée sur macOS Ventura (Architecture M1)
-- *Testé auparavant sur macOS Big Sur, High Sierra, Mojave, Catalina - Intel*
+- Version actuelle testée sur macOS Tahoe (Architecture M1)
+- *Testé auparavant sur macOS Big Sur, High Sierra, Mojave, Catalina, Ventura*
 
 ## Crédits
 
