@@ -106,6 +106,7 @@ cask 'localsend'
 cask 'smoothcsv'
 brew 'goclone'
 cask 'pique' # quick look color syntaxing
+cask 'opendisk'
 
 # cask 'cling'
 # cask 'onyx'
