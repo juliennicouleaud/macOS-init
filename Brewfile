@@ -150,7 +150,6 @@ cask 'firefox'
 # ###################################################################################################################################################
 
 brew 'git'
-cask 'github'
 cask 'sourcegit'
 cask 'sublime-text'
 cask 'vscodium'
@@ -170,9 +169,7 @@ brew 'pipx'
 cask "google-cloud-sdk"
 
 
-# cask 'docker-desktop'
-# cask 'claudebar'
-# cask 'rustrover'
+# cask 'github'
 # brew 'htmlhint'
 # brew 'orbstack'
 # brew 'lazygit'
