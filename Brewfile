@@ -62,7 +62,6 @@ brew 'bat'
 brew 'diff-so-fancy'
 brew 'hgrep'
 brew 'rink'
-brew 'dug' # dns propagation cli
 brew 'dasel' # manipulate json files
 brew 'lazyjournal'
 brew 'gotz' # timezones
@@ -161,8 +160,6 @@ cask 'claude-code'
 brew 'docker'
 brew 'colima'
 brew 'splitrail'
-brew 'mistral-vibe'
-cask 'codex'
 
 ### Pour installer le connecteur MCP Google Analytics
 brew 'pipx'
@@ -217,6 +214,7 @@ brew 'yap' # MacOS native speech to text
 cask 'bettercapture'
 brew 'termframe' # Capture terminal in SVG
 brew 'termusic'
+cask 'cog'
 
 # brew 'gifsicle'
 # cask 'iina'
