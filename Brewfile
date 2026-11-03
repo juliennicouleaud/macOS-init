@@ -102,11 +102,11 @@ cask 'obsidian'
 cask 'nextcloud'
 cask 'monitorcontrol'
 cask 'localsend'
-cask 'smoothcsv'
 brew 'goclone'
 cask 'pique' # quick look color syntaxing
 cask 'opendisk'
 
+# cask 'smoothcsv'
 # cask 'cling'
 # cask 'onyx'
 # cask 'pairpods' # share bluetooth audio with multiple devices
